@@ -1,0 +1,275 @@
+/* 国内/外切り替えボタン */
+button {
+    padding: 15px 100px;
+    margin: 0 1px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+    background-color: #F5F5F5;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #6d6d6d;
+}
+    
+button.active {
+  background-color: white;
+  color: black;
+  border-bottom: 3px solid #212d5d;
+}
+  
+button:hover {
+  background-color: #EDEDED;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 検索ボックス */
+
+.content {
+  width: 950px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background: linear-gradient(to right, #212d5d 0%, #4f6a94 50%, #7a8cb5 100%);
+  box-shadow: 0 4px 6px #4d4d4d;
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;   
+  display: none;
+}
+  
+  .content:not(.hidden) {
+    display: block;
+  visibility: visible;
+  opacity: 1;
+  }
+
+/* 国内線/国際線文字 */
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-style: normal;
+  }
+  
+  p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+
+
+  .box {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  
+  /* 検索BOX */
+
+  input[type="text"] {
+    padding: 10px;
+    background-color: white;
+    border: 2.5px solid #212d5d;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #212d5d;
+    text-align: center;
+    width: 70%;
+    height: 150px;
+    box-shadow: 0 2px 4px #556b6b;
+  }
+
+  input::placeholder {
+  color: #e7e7e7;
+  font-size: 25px;
+  
+  }
+  input:focus {
+    background-color: white;
+    outline: none;
+  }
+
+  #internationalSwapButton,#domesticSwapButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+/* dep/arrival反転 */
+
+  .swap-icon {
+    width: 25%;
+  }
+  
+
+  .search{
+    margin:0 auto;
+    padding: 1%  15%;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
+    color: #212d5d;
+    border-radius: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #212d5d;
+    border-radius: 25px;
+    width: fit-content;
+    display: block;
+
+  }
+
+  .search:hover {
+    color: #212d5d;
+  }
+ 
+  #error {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    border: #212d5d;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #error p {
+    color: #212d5d;
+    text-align: center;
+  }
+
+  .result {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+    border: #212d5d;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .result p {
+    color: #212d5d;
+    text-align: center;
+  }
+  
+ 
+  .simbrief-link{
+    padding: 1%  8%;
+    display: inline-block;
+    background: linear-gradient(to right, #212d5d 0%, #4f6a94 50%, #7a8cb5 100%);
+    background-size: 200% auto;  
+    color: white;
+    border-radius: 45px;
+    font-size: 20px;
+    transition: .5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .simbrief-link:hover {
+    color: #fff;
+    background-position: right center;
+  }
+  
+  a.simbrief-link::after{
+    all: unset;
+  }
+
+
+  #aircraft{
+      margin:0 auto;
+      padding: 1%  15%;
+      background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
+      color: #212d5d;
+      border-radius: 45px;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      background-color: white;
+      border: 1px solid #212d5d;
+      border-radius: 25px;
+      width: fit-content;
+      display: block;
+  }
+  
+  /* フォーカス時に枠線の色を変更 */
+  #aircraft{
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* 機種セレクターのオプション */
+  #aircraft option {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  /* 機種セレクターのホバー時 */
+  #aircraft:hover {
+    background-color: #eef2f7;
+  }
+
+  #i_aircraft{
+    margin:0 auto;
+    padding: 1%  15%;
+    background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
+    color: #212d5d;
+    border-radius: 45px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #212d5d;
+    border-radius: 25px;
+    width: fit-content;
+    display: block;
+}
+
+/* フォーカス時に枠線の色を変更 */
+#i_aircraft{
+  border-color: #007bff;
+  outline: none;
+}
+
+/* 機種セレクターのオプション */
+#i_aircraft option {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #f0f0f0;
+}
+
+/* 機種セレクターのホバー時 */
+#i_aircraft:hover {
+  background-color: #eef2f7;
+}
+  
+  /* レスポンシブデザイン（モバイル対応） */
+  @media (max-width: 600px) {
+    #aircraft {
+      max-width: 100%;  /* スマホでは最大幅を100%に */
+    }
+    #i_aircraft {
+      max-width: 100%;  /* スマホでは最大幅を100%に */
+    }
+  }

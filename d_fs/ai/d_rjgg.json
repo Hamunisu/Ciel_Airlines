@@ -1,0 +1,158 @@
+{
+    "flights": [
+        {
+        "arrival":["rjec","akj","旭川"],
+        "flightNumber": "2700\n2702\n2704"
+      },
+
+      {
+        "arrival":["rjcc","cts","新千歳"],
+        "flightNumber":"2720\n2722\n2724\n2726\n2728\n2730"
+      },
+
+      {
+        "arrival":["rjsa","aoj","青森"],
+        "flightNumber":"2740"
+      },
+
+      {
+        "arrival":["rjsk","axt","秋田"],
+        "flightNumber":"2750"
+      },
+
+      {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"2760"
+      },
+
+      {
+        "arrival":["rjsf","fks","福島"],
+        "flightNumber":"2770"
+      }, 
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1719\n1721\n1723\n1725\n1727\n1727\n1729\n1731\n1733\n1735\n1737"
+      },
+
+      {
+        "arrival":["rjaf","mmj","松本"],
+        "flightNumber":"2790"
+      },
+
+      {
+        "arrival":["ejsn","kij","新潟"],
+        "flightNumber":"2780\n2782"
+      },
+
+      {
+        "arrival":["rjnt","toy","富山"],
+        "flightNumber":"2810"
+      },
+            
+      {
+        "arrival":["rjnw","ntq","能登"],
+        "flightNumber":"2800"
+      },
+
+      {
+        "arrival":["rjnk","kmq","小松"],
+        "flightNumber":"2820"
+      },
+            
+      {
+        "arrival":["rjnf","fkj","福井"],
+        "flightNumber":"2830"
+      },
+            
+      {
+        "arrival":["rjbd","shm","南紀白浜"],
+        "flightNumber":"2840"
+      },
+            
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2381\n2383\n2385\n2387\n2389"
+      },
+
+      {
+        "arrival":["rjos","tks","徳島"],
+        "flightNumber":"2900"
+      },
+            
+      {
+        "arrival":["rjok","kcz","高知"],
+        "flightNumber":"2910"
+      },
+
+      {
+        "arrival":["rjom","myj","松山"],
+        "flightNumber":"2920"
+      },
+
+      {
+        "arrival":["rjot","tak","高松"],
+        "flightNumber":"2890"
+      },
+
+      {
+        "arrival":["rjor","ttj","鳥取"],
+        "flightNumber":"2850"
+      },
+
+      {
+        "arrival":["rjob","okj","岡山"],
+        "flightNumber":"2860"
+      },
+            
+      {
+        "arrival":["rjoa","hij","広島"],
+        "flightNumber":"2870\n2872"
+      },
+            
+      {
+        "arrival":["rjow","iwj","石見"],
+        "flightNumber":"4329\n4331"
+      },
+
+      {
+        "arrival":["rjfr","kkj","北九州"],
+        "flightNumber":"2960"
+      },
+            
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"2930\n2932\n2934\n2936\n2938\n2940\n2942\n2944"
+      },
+            
+      {
+        "arrival":["rjfo","oit","大分"],
+        "flightNumber":"2980"
+      },
+            
+      {
+        "arrival":["rjfs","hsg","佐賀"],
+        "flightNumber":"3000"
+      },
+            
+      {
+        "arrival":["rjfu","ngs","長崎"],
+        "flightNumber":"2970"
+      },
+
+      {
+        "arrival":["rjfm","kmi","宮崎"],
+        "flightNumber":"3010"
+      },
+            
+      {
+        "arrival":["rjfk","koj","鹿児島"],
+        "flightNumber":"3020"
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"3030\n3032\n3034\n3036\n3038"
+      }
+    ]
+}

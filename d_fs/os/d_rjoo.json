@@ -1,0 +1,209 @@
+{
+    "flights":[
+        {
+        "arrival":["rjec","akj","旭川"],
+        "flightNumber":"2300"
+        },
+
+        {
+            "arrival":["rjcc","cts","新千歳"],
+            "flightNumber":"2310\n2312\n2314\n2316\n2318"
+          },
+    
+          {
+            "arrival":["rjsa","aoj","青森"],
+            "flightNumber":"2350"
+          },
+    
+          {
+            "arrival":["rjsk","axt","秋田"],
+            "flightNumber":"2360"
+          },
+    
+          {
+            "arrival":["rjss","sdj","仙台"],
+            "flightNumber":"2330"
+
+          },
+    
+          {
+            "arrival":["rjsf","fks","福島"],
+            "flightNumber":"2340"
+
+          }, 
+    
+          {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"1601\n1603\n1605"
+
+          },
+    
+          {
+            "arrival":["rjaf","mmj","松本"],
+            "flightNumber":"2400"
+
+          },
+          
+          {
+            "arrival":["rjgg","ngo","中部","セントレア"],
+            "flightNumber":"2380\n2382\n2384\n2386\n2388"
+
+          },
+
+          {
+            "arrival":["ejsn","kij","新潟"],
+            "flightNumber":"2370"
+
+          },
+
+          {
+            "arrival":["rjnk","kmq","小松"],
+            "flightNumber":"2410"
+
+          },
+
+          {
+            "arrival":["rjbd","shm","南紀白浜"],
+            "flightNumber":"2500"
+
+          },
+
+          {
+            "arrival":["rjbb","kix","関西"],
+            "flightNumber":"5101\n5103\n5105\n5107\n5109\n5111\n5113\n5115"
+
+          },
+                
+          {
+            "arrival":["rjbe","ukb","神戸"],
+            "flightNumber":"5160\n5162\n5164\n5166\n5168\n5170\n5172\n5174"
+
+          },
+                
+          {
+            "arrival":["rjbt","tjh","但馬"],
+            "flightNumber":"2420"
+
+          },
+                
+          {
+            "arrival":["rjos","tks","徳島"],
+            "flightNumber":"2530"
+
+          },
+                
+          {
+            "arrival":["rjok","kcz","高知"],
+            "flightNumber":"2520"
+
+          },
+                
+          {
+            "arrival":["rjom","myj","松山"],
+            "flightNumber":"2540"
+
+          },
+                
+          {
+            "arrival":["rjot","tak","高松"],
+            "flightNumber":"2510\n2512"
+
+          },
+                
+          {
+            "arrival":["rjor","ttj","鳥取"],
+            "flightNumber":"2340"
+
+          },
+                
+          {
+            "arrival":["rjoh","tgj","米子"],
+            "flightNumber":"2440"
+
+          },
+                
+          {
+            "arrival":["rjoc","izo","出雲"],
+            "flightNumber":"2460"
+
+          },
+                
+          {
+            "arrival":["rjno","oki","隠岐"],
+            "flightNumber":"2450"
+
+          },
+                
+          {
+            "arrival":["rjob","okj","岡山"],
+            "flightNumber":"2480"
+
+          },
+                
+          {
+            "arrival":["rjoa","hij","広島"],
+            "flightNumber":"2490"
+
+          },
+                
+          {
+            "arrival":["rjow","iwj","石見"],
+            "flightNumber":"4341"
+
+          },
+
+          {
+            "arrival":["rjfr","kkj","北九州"],
+            "flightNumber":"2550"
+
+          },
+                
+          {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"2560\n2562\n2564\n2566\n2568\n2570"
+
+          },
+                
+          {
+            "arrival":["rjfo","oit","大分"],
+            "flightNumber":"2574"
+
+          },
+                
+          {
+            "arrival":["rjfs","hsg","佐賀"],
+            "flightNumber":"2580"
+
+          },
+                
+          {
+            "arrival":["rjfu","ngs","長崎"],
+            "flightNumber":"2590"
+
+          },
+            
+          {
+            "arrival":["rjft","kmj","熊本"],
+            "flightNumber":"2600"
+
+          },
+                
+          {
+            "arrival":["rjfm","kmi","宮崎"],
+            "flightNumber":"2610"
+
+          },
+                
+          {
+            "arrival":["rjfk","koj","鹿児島"],
+            "flightNumber":"2620"
+
+          },
+
+          {
+            "arrival":["roah","oka","那覇"],
+            "flightNumber":"2630\n2632\n2634"
+
+          }
+    ]
+}

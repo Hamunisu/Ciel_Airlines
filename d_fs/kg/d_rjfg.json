@@ -1,0 +1,13 @@
+{
+    "flights": [
+        {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber": "1913"
+          },
+
+          {
+            "arrival":["rjfk","koj","鹿児島"],
+            "flightNumber":"4221"
+          }
+        ]
+    }

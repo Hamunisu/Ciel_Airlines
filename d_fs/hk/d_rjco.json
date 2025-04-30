@@ -1,0 +1,63 @@
+{
+    "flights": [
+        {
+            "arrival": ["rjcw","wkj","稚内"],
+            "flightNumber": "3460"
+          },
+
+          {
+            "arrival": ["rjer","ris","利尻"],
+            "flightNumber": "3480"
+          },
+
+          {
+            "arrival":["rjcm","mmb","女満別"],
+            "flightNumber":"3400\n3402\n3404\n3406"
+          },
+                
+          {
+            "arrival":["rjck","kuh","釧路"],
+            "flightNumber":"3440"
+          },
+                
+          {
+            "arrival":["rjcb","obo","帯広"],
+            "flightNumber":"3450"
+          },
+                
+          {
+            "arrival":["rjec","akj","旭川"],
+            "flightNumber": "3470\n3472"
+          },
+                
+          {
+            "arrival":["rjcc","cts","新千歳"],
+            "flightNumber":"5201\n5203\n5205\n5207\n5209\n5211\n5213"
+          },
+          
+          {
+            "arrival":["rjch","hkd","函館"],
+            "flightNumber":"3220\n3422"
+          },
+    
+          {
+            "arrival":["rjeo","oir","奥尻"],
+            "flightNumber":"3490"
+          },
+          
+          {
+            "arrival":["rjcn","shb","中標津"],
+            "flightNumber":"3430"
+          },      
+          
+          {
+            "arrival":["rjss","sdj","仙台"],
+            "flightNumber":"3510\n3512\n3514\n3516\n3518\n3520\n3522\n3524"
+          },
+
+          {
+            "arrival":["rjaf","mmj","松本"],
+            "flightNumber":"3500\n3502"
+          }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjcc","cts","新千歳"],
+        "flightNumber": "3221\n3223"
+      },
+
+      {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"3621"
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1321"
+      },
+
+      {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"2751"
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2361"
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"3821"
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"4421"
+      }
+    ]
+}

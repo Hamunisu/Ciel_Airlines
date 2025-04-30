@@ -1,0 +1,55 @@
+{
+    "A321": [
+      "JA31AB",
+      "JA32AB",
+      "JA33AB",
+      "JA34AB",
+      "JA41AB",
+      "JA42AB",
+      "JA43AB",
+      "JA44AB",
+      "JA45AB",
+      "JA46AB"
+    ],
+    "A346": [
+      "JA71AP"
+    ],
+    "A359": [
+      "JA51AT"
+    ],
+    "B738": [
+      "JA51AE",
+      "JA52AE"
+    ],
+    "B772": [
+      "JA31AH",
+      "JA51CN",
+      "JA81CN",
+      "JA93CN",
+      "JA02VP",
+      "JA11VP",
+      "JA13VP",
+      "JA15VP",
+      "JA16VP",
+      "JA17VP",
+      "JA27VP",
+      "JA31VP",
+      "JA51VP",
+      "JA96VP"
+    ],
+    "B742": [
+      "JA71AK",
+      "JA72AK"
+    ],
+    "B762": [
+      "JA91AL"
+    ],
+    "B763": [
+      "JA31AM"
+    ],
+    "A109": [
+      "JA81HC",
+      "JA82HC"
+    ]
+  }
+  

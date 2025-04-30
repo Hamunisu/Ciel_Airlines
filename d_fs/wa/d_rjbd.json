@@ -1,0 +1,22 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1641"
+      },
+        {
+            "arrival":["rjns","fsz","静岡"],
+            "flightNumber":"4831"
+          },
+
+          {
+            "arrival":["rjgg","ngo","中部"],
+            "flightNumber":"2841"
+          },
+
+          {
+            "arrival":["rjoo","itm","伊丹"],
+            "flightNumber":"2501"
+          }
+        ]
+    }    

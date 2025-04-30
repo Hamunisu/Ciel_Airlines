@@ -1,0 +1,534 @@
+{
+        "RJTT EGLL": { "flightNumber": "1" },
+        "EGLL RJTT": { "flightNumber": "2" },
+      
+        "RJTT EIDW": { "flightNumber": "3" },
+        "EIDW RJTT": { "flightNumber": "4" },
+      
+        "RJTT BIKF": { "flightNumber": "5" },
+        "BIKF RJTT": { "flightNumber": "6" },
+      
+        "RJTT LFPG": { "flightNumber": "7" },
+        "LFPG RJTT": { "flightNumber": "8" },
+      
+        "RJTT LEMD": { "flightNumber": "9" },
+        "LEMD RJTT": { "flightNumber": "10" },
+      
+        "RJTT LPPT": { "flightNumber": "11" },
+        "LPPT RJTT": { "flightNumber": "12" },
+      
+        "RJTT EDDF": { "flightNumber": "13" },
+        "EDDF RJTT": { "flightNumber": "14" },
+      
+        "RJTT EDDM": { "flightNumber": "15" },
+        "EDDM RJTT": { "flightNumber": "16" },
+      
+        "RJTT EDDC": { "flightNumber": "17" },
+        "EDDC RJTT": { "flightNumber": "18" },
+      
+        "RJTT EDDB": { "flightNumber": "19" },
+        "EDDB RJTT": { "flightNumber": "20" },
+      
+        "RJTT ELLX": { "flightNumber": "21" },
+        "ELLX RJTT": { "flightNumber": "22" },
+      
+        "RJTT EBBR": { "flightNumber": "23" },
+        "EBBR RJTT": { "flightNumber": "24" },
+      
+        "RJTT EHAM": { "flightNumber": "25" },
+        "EHAM RJTT": { "flightNumber": "26" },
+      
+        "RJTT LOWW": { "flightNumber": "27" },
+        "LOWW RJTT": { "flightNumber": "28" },
+      
+        "RJTT EPWA": { "flightNumber": "29" },
+        "EPWA RJTT": { "flightNumber": "30" },
+      
+        "RJTT LKPR": { "flightNumber": "31" },
+        "LKPR RJTT": { "flightNumber": "32" },
+      
+        "RJTT LHBP": { "flightNumber": "33" },
+        "LHBP RJTT": { "flightNumber": "34" },
+      
+        "RJTT LROP": { "flightNumber": "35" },
+        "LROP RJTT": { "flightNumber": "36" },
+      
+        "RJTT LSGG": { "flightNumber": "37" },
+        "LSGG RJTT": { "flightNumber": "38" },
+      
+        "RJTT LIRF": { "flightNumber": "39" },
+        "LIRF RJTT": { "flightNumber": "40" },
+      
+        "RJTT LIMC": { "flightNumber": "41" },
+        "LIMC RJTT": { "flightNumber": "42" },
+      
+        "RJTT EKCH": { "flightNumber": "43" },
+        "EKCH RJTT": { "flightNumber": "44" },
+      
+        "RJTT ENGM": { "flightNumber": "45" },
+        "ENGM RJTT": { "flightNumber": "46" },
+      
+        "RJTT ESSA": { "flightNumber": "47" },
+        "ESSA RJTT": { "flightNumber": "48" },
+      
+        "RJTT EFHK": { "flightNumber": "49" },
+        "EFHK RJTT": { "flightNumber": "50" },
+      
+        "RJTT EETN": { "flightNumber": "51" },
+        "EETN RJTT": { "flightNumber": "52" },
+      
+        "RJTT EVRA": { "flightNumber": "53" },
+        "EVRA RJTT": { "flightNumber": "54" },
+      
+        "RJTT EYVI": { "flightNumber": "55" },
+        "EYVI RJTT": { "flightNumber": "56" },
+      
+        "RJTT UKBB": { "flightNumber": "57" },
+        "UKBB RJTT": { "flightNumber": "58" },
+      
+        "RJTT UMMS": { "flightNumber": "59" },
+        "UMMS RJTT": { "flightNumber": "60" },
+      
+        "RJTT UUEE": { "flightNumber": "61" },
+        "UUEE RJTT": { "flightNumber": "62" },
+      
+        "RJTT UUWW": { "flightNumber": "63" },
+        "UUWW RJTT": { "flightNumber": "64" },
+      
+        "RJTT UUBW": { "flightNumber": "65" },
+        "UUBW RJTT": { "flightNumber": "66" },
+      
+        "RJTT UUDD": { "flightNumber": "67" },
+        "UUDD RJTT": { "flightNumber": "68" },
+      
+        "RJTT ULLI": { "flightNumber": "69" },
+        "ULLI RJTT": { "flightNumber": "70" },
+      
+        "RJTT URSS": { "flightNumber": "71" },
+        "URSS RJTT": { "flightNumber": "72" },
+      
+        "RJTT UHWW": { "flightNumber": "73" },
+        "UHWW RJTT": { "flightNumber": "74" },
+      
+        "RJTT LGAV": { "flightNumber": "75" },
+        "LGAV RJTT": { "flightNumber": "76" },
+      
+        "RJTT LTFM": { "flightNumber": "77" },
+        "LTFM RJTT": { "flightNumber": "78" },
+
+        "RJTT RKSS": { "flightNumber": "101" },
+        "RKSS RJTT": { "flightNumber": "102" },
+        
+        "RJTT RKSI": { "flightNumber": "103" },
+        "RKSI RJTT": { "flightNumber": "104" },
+        
+        "RJTT ZKPY": { "flightNumber": "105" },
+        "ZKPY RJTT": { "flightNumber": "106" },
+        
+        "RJTT RCTP": { "flightNumber": "107" },
+        "RCTP RJTT": { "flightNumber": "108" },
+        
+        "RJTT RCSS": { "flightNumber": "109" },
+        "RCSS RJTT": { "flightNumber": "110" },
+        
+        "RJTT VHHH": { "flightNumber": "111" },
+        "VHHH RJTT": { "flightNumber": "112" },
+        
+        "RJTT RPLL": { "flightNumber": "113" },
+        "RPLL RJTT": { "flightNumber": "114" },
+        
+        "RJTT VVNB": { "flightNumber": "115" },
+        "VVNB RJTT": { "flightNumber": "116" },
+        
+        "RJTT VVTS": { "flightNumber": "117" },
+        "VVTS RJTT": { "flightNumber": "118" },
+        
+        "RJTT VTBS": { "flightNumber": "119" },
+        "VTBS RJTT": { "flightNumber": "120" },
+        
+        "RJTT WBKK": { "flightNumber": "121" },
+        "WBKK RJTT": { "flightNumber": "122" },
+        
+        "RJTT WMKK": { "flightNumber": "123" },
+        "WMKK RJTT": { "flightNumber": "124" },
+        
+        "RJTT WSSS": { "flightNumber": "125" },
+        "WSSS RJTT": { "flightNumber": "126" },
+        
+        "RJTT WIII": { "flightNumber": "127" },
+        "WIII RJTT": { "flightNumber": "128" },
+        
+        "RJTT ZBAA": { "flightNumber": "129" },
+        "ZBAA RJTT": { "flightNumber": "130" },
+        
+        "RJTT ZYTL": { "flightNumber": "131" },
+        "ZYTL RJTT": { "flightNumber": "132" },
+        
+        "RJTT ZSQD": { "flightNumber": "133" },
+        "ZSQD RJTT": { "flightNumber": "134" },
+        
+        "RJTT ZSPD": { "flightNumber": "135" },
+        "ZSPD RJTT": { "flightNumber": "136" },
+        
+        "RJTT VIDP": { "flightNumber": "151" },
+        "VIDP RJTT": { "flightNumber": "152" },
+        
+        "RJTT VABB": { "flightNumber": "153" },
+        "VABB RJTT": { "flightNumber": "154" },
+        
+        "RJTT VNKT": { "flightNumber": "155" },
+        "VNKT RJTT": { "flightNumber": "156" },
+        
+        "RJTT UACC": { "flightNumber": "157" },
+        "UACC RJTT": { "flightNumber": "158" },
+        
+        "RJTT OMDB": { "flightNumber": "181" },
+        "OMDB RJTT": { "flightNumber": "182" },
+        
+        "RJTT OMAA": { "flightNumber": "183" },
+        "OMAA RJTT": { "flightNumber": "184" },
+        
+        "RJTT OTHH": { "flightNumber": "185" },
+        "OTHH RJTT": { "flightNumber": "186" },
+        
+        "RJTT OOMS": { "flightNumber": "187" },
+        "OOMS RJTT": { "flightNumber": "188" },
+        
+        "RJTT OEJN": { "flightNumber": "189" },
+        "OEJN RJTT": { "flightNumber": "190" },
+        
+        "RJTT OJAI": { "flightNumber": "191" },
+        "OJAI RJTT": { "flightNumber": "192" },
+        
+        "RJTT LLBG": { "flightNumber": "193" },
+        "LLBG RJTT": { "flightNumber": "194" },
+        
+        "RJTT OLBA": { "flightNumber": "195" },
+        "OLBA RJTT": { "flightNumber": "196" },
+        
+        "RJTT OSDI": { "flightNumber": "197" },
+        "OSDI RJTT": { "flightNumber": "198" },
+        
+        "RJTT ORBI": { "flightNumber": "199" },
+        "ORBI RJTT": { "flightNumber": "200" },
+        
+        "RJTT OKKK": { "flightNumber": "201" },
+        "OKKK RJTT": { "flightNumber": "202" },
+        
+        "RJTT OIIE": { "flightNumber": "203" },
+        "OIIE RJTT": { "flightNumber": "204" },
+        
+        "RJTT OAKB": { "flightNumber": "205" },
+        "OAKB RJTT": { "flightNumber": "206" },
+        
+        "RJTT YSSY": { "flightNumber": "221" },
+        "YSSY RJTT": { "flightNumber": "222" },
+        
+        "RJTT YMML": { "flightNumber": "223" },
+        "YMML RJTT": { "flightNumber": "224" },
+        
+        "RJTT YBBN": { "flightNumber": "225" },
+        "YBBN RJTT": { "flightNumber": "226" },
+        
+        "RJTT YPPH": { "flightNumber": "227" },
+        "YPPH RJTT": { "flightNumber": "228" },
+        
+        "RJTT NZAA": { "flightNumber": "229" },
+        "NZAA RJTT": { "flightNumber": "230" },
+        
+        "RJTT PHNL": { "flightNumber": "251" },
+        "PHNL RJTT": { "flightNumber": "252" },
+        
+        "RJTT PANC": { "flightNumber": "253" },
+        "PANC RJTT": { "flightNumber": "254" },
+        
+        "RJTT CYVR": { "flightNumber": "255" },
+        "CYVR RJTT": { "flightNumber": "256" },
+        
+        "RJTT CYYC": { "flightNumber": "257" },
+        "CYYC RJTT": { "flightNumber": "258" },
+        
+        "RJTT CYYZ": { "flightNumber": "259" },
+        "CYYZ RJTT": { "flightNumber": "260" },
+        
+        "RJTT CYUL": { "flightNumber": "261" },
+        "CYUL RJTT": { "flightNumber": "262" },
+        
+        "RJTT KSFO": { "flightNumber": "263" },
+        "KSFO RJTT": { "flightNumber": "264" },
+        
+        "RJTT KSEA": { "flightNumber": "265" },
+        "KSEA RJTT": { "flightNumber": "266" },
+        
+        "RJTT KLAX": { "flightNumber": "267" },
+        "KLAX RJTT": { "flightNumber": "268" },
+        
+        "RJTT KORD": { "flightNumber": "269" },
+        "KORD RJTT": { "flightNumber": "270" },
+        
+        "RJTT KIAH": { "flightNumber": "271" },
+        "KIAH RJTT": { "flightNumber": "272" },
+        
+        "RJTT KJFK": { "flightNumber": "273" },
+        "KJFK RJTT": { "flightNumber": "274" },
+        
+        "RJTT MMMX": { "flightNumber": "275" },
+        "MMMX RJTT": { "flightNumber": "276" },
+
+
+
+
+        "RJAA EGLL": { "flightNumber": "301" },
+        "EGLL RJAA": { "flightNumber": "302" },
+
+        "RJAA LFPG": { "flightNumber": "303" },
+        "LFPG RJAA": { "flightNumber": "304" },
+
+        "RJAA EDDF": { "flightNumber": "305" },
+        "EDDF RJAA": { "flightNumber": "306" },
+
+        "RJAA EHAM": { "flightNumber": "307" },
+        "EHAM RJAA": { "flightNumber": "308" },
+
+        "RJAA EFHK": { "flightNumber": "309" },
+        "EFHK RJAA": { "flightNumber": "310" },
+
+        "RJAA UUEE": { "flightNumber": "311" },
+        "UUEE RJAA": { "flightNumber": "312" },
+
+        "RJAA LTFM": { "flightNumber": "313" },
+        "LTFM RJAA": { "flightNumber": "314" },
+
+        "RKSI RJAA": { "flightNumber": "341" },
+        "RJAA RKSI": { "flightNumber": "342" },
+
+        "ZKPY RJAA": { "flightNumber": "343" },
+        "RJAA ZKPY": { "flightNumber": "344" },
+
+        "RCTP RJAA": { "flightNumber": "345" },
+        "RJAA RCTP": { "flightNumber": "346" },
+
+        "VHHH RJAA": { "flightNumber": "347" },
+        "RJAA VHHH": { "flightNumber": "348" },
+
+        "RPLL RJAA": { "flightNumber": "349" },
+        "RJAA RPLL": { "flightNumber": "350" },
+
+        "WMKK RJAA": { "flightNumber": "351" },
+        "RJAA WMKK": { "flightNumber": "352" },
+
+        "WSSS RJAA": { "flightNumber": "353" },
+        "RJAA WSSS": { "flightNumber": "354" },
+
+        "ZBAA RJAA": { "flightNumber": "355" },
+        "RJAA ZBAA": { "flightNumber": "356" },
+
+        "ZSPD RJAA": { "flightNumber": "357" },
+        "RJAA ZSPD": { "flightNumber": "358" },
+
+        "VIDP RJAA": { "flightNumber": "359" },
+        "RJAA VIDP": { "flightNumber": "360" },
+
+        "OMDB RJAA": { "flightNumber": "361" },
+        "RJAA OMDB": { "flightNumber": "362" },
+
+        "OMAA RJAA": { "flightNumber": "363" },
+        "RJAA OMAA": { "flightNumber": "364" },
+
+        "OTHH RJAA": { "flightNumber": "365" },
+        "RJAA OTHH": { "flightNumber": "366" },
+
+        "OIIE RJAA": { "flightNumber": "367" },
+        "RJAA OIIE": { "flightNumber": "368" },
+
+        "YSSY RJAA": { "flightNumber": "369" },
+        "RJAA YSSY": { "flightNumber": "370" },
+
+        "YMML RJAA": { "flightNumber": "371" },
+        "RJAA YMML": { "flightNumber": "372" },
+
+        "NZAA RJAA": { "flightNumber": "373" },
+        "RJAA NZAA": { "flightNumber": "374" },
+
+        "PHNL RJAA": { "flightNumber": "401" },
+        "RJAA PHNL": { "flightNumber": "402" },
+
+        "PANC RJAA": { "flightNumber": "403" },
+        "RJAA PANC": { "flightNumber": "404" },
+
+        "CYVR RJAA": { "flightNumber": "405" },
+        "RJAA CYVR": { "flightNumber": "406" },
+
+        "KSFO RJAA": { "flightNumber": "407" },
+        "RJAA KSFO": { "flightNumber": "408" },
+
+        "KSEA RJAA": { "flightNumber": "409" },
+        "RJAA KSEA": { "flightNumber": "410" },
+
+        "KLAX RJAA": { "flightNumber": "411" },
+        "RJAA KLAX": { "flightNumber": "412" },
+
+        "KORD RJAA": { "flightNumber": "413" },
+        "RJAA KORD": { "flightNumber": "414" },
+
+        "KIAH RJAA": { "flightNumber": "415" },
+        "RJAA KIAH": { "flightNumber": "416" },
+
+        "KJFK RJAA": { "flightNumber": "417" },
+        "RJAA KJFK": { "flightNumber": "418" },
+
+        "MMMX RJAA": { "flightNumber": "419" },
+        "RJAA MMMX": { "flightNumber": "420" },
+
+
+
+
+        "RJCC EGLL": { "flightNumber": "431" },
+        "EGLL RJCC": { "flightNumber": "432" },
+        
+        "RJCC LSGG": { "flightNumber": "433" },
+        "LSGG RJCC": { "flightNumber": "434" },
+        
+        "RJCC ULLI": { "flightNumber": "445" },
+        "ULLI RJCC": { "flightNumber": "446" },
+        
+        "RJCC UHSS": { "flightNumber": "447" },
+        "UHSS RJCC": { "flightNumber": "448" },
+        
+        "RJCC RKSS": { "flightNumber": "449" },
+        "RKSS RJCC": { "flightNumber": "450" },
+        
+        "RJCC ZSPD": { "flightNumber": "451" },
+        "ZSPD RJCC": { "flightNumber": "452" },
+        
+        
+
+        "RJGG EGLL": { "flightNumber": "471" },
+        "EGLL RJGG": { "flightNumber": "472" },
+
+        "RJGG LFPG": { "flightNumber": "473" },
+        "LFPG RJGG": { "flightNumber": "474" },
+
+        "RJGG EDDF": { "flightNumber": "475" },
+        "EDDF RJGG": { "flightNumber": "476" },
+
+        "RJGG EFHK": { "flightNumber": "477" },
+        "EFHK RJGG": { "flightNumber": "478" },
+
+        "RJGG UHWW": { "flightNumber": "479" },
+        "UHWW RJGG": { "flightNumber": "480" },
+
+        "RJGG RKSI": { "flightNumber": "481" },
+        "RKSI RJGG": { "flightNumber": "482" },
+
+        "RJGG ZKPY": { "flightNumber": "483" },
+        "ZKPY RJGG": { "flightNumber": "484" },
+
+        "RJGG RCTP": { "flightNumber": "485" },
+        "RCTP RJGG": { "flightNumber": "486" },
+
+        "RJGG VHHH": { "flightNumber": "487" },
+        "VHHH RJGG": { "flightNumber": "488" },
+
+        "RJGG WSSS": { "flightNumber": "489" },
+        "WSSS RJGG": { "flightNumber": "490" },
+
+        "RJGG ZBAA": { "flightNumber": "491" },
+        "ZBAA RJGG": { "flightNumber": "492" },
+
+        "RJGG ZSPD": { "flightNumber": "493" },
+        "ZSPD RJGG": { "flightNumber": "494" },
+
+        "RJGG OMDB": { "flightNumber": "495" },
+        "OMDB RJGG": { "flightNumber": "496" },
+
+        "RJGG YSSY": { "flightNumber": "497" },
+        "YSSY RJGG": { "flightNumber": "498" },
+
+        "RJGG PHNL": { "flightNumber": "499" },
+        "PHNL RJGG": { "flightNumber": "500" },
+
+        "RJGG KSFO": { "flightNumber": "501" },
+        "KSFO RJGG": { "flightNumber": "502" },
+
+        "RJGG KSEA": { "flightNumber": "503" },
+        "KSEA RJGG": { "flightNumber": "504" },
+
+        "RJGG KLAX": { "flightNumber": "505" },
+        "KLAX RJGG": { "flightNumber": "506" },
+
+        "RJGG KORD": { "flightNumber": "507" },
+        "KORD RJGG": { "flightNumber": "508" },
+
+        "RJGG KIAH": { "flightNumber": "509" },
+        "KIAH RJGG": { "flightNumber": "510" },
+
+        "RJGG KJFK": { "flightNumber": "511" },
+        "KJFK RJGG": { "flightNumber": "512" },
+
+
+
+
+        "RJBB EGLL": { "flightNumber": "531" },
+        "EGLL RJBB": { "flightNumber": "532" },
+        
+        "RJBB LFPG": { "flightNumber": "533" },
+        "LFPG RJBB": { "flightNumber": "534" },
+        
+        "RJBB EDDF": { "flightNumber": "535" },
+        "EDDF RJBB": { "flightNumber": "536" },
+        
+        "RJBB EFHK": { "flightNumber": "537" },
+        "EFHK RJBB": { "flightNumber": "538" },
+        
+        "RJBB UHWW": { "flightNumber": "539" },
+        "UHWW RJBB": { "flightNumber": "540" },
+        
+        "RJBB RKSI": { "flightNumber": "541" },
+        "RKSI RJBB": { "flightNumber": "542" },
+        
+        "RJBB ZKPY": { "flightNumber": "543" },
+        "ZKPY RJBB": { "flightNumber": "544" },
+        
+        "RJBB RCTP": { "flightNumber": "545" },
+        "RCTP RJBB": { "flightNumber": "546" },
+        
+        "RJBB VHHH": { "flightNumber": "547" },
+        "VHHH RJBB": { "flightNumber": "548" },
+        
+        "RJBB WSSS": { "flightNumber": "549" },
+        "WSSS RJBB": { "flightNumber": "550" },
+        
+        "RJBB ZBAA": { "flightNumber": "551" },
+        "ZBAA RJBB": { "flightNumber": "552" },
+        
+        "RJBB ZSPD": { "flightNumber": "553" },
+        "ZSPD RJBB": { "flightNumber": "554" },
+        
+        "RJBB OMDB": { "flightNumber": "555" },
+        "OMDB RJBB": { "flightNumber": "556" },
+        
+        "RJBB YSSY": { "flightNumber": "557" },
+        "YSSY RJBB": { "flightNumber": "558" },
+        
+        "RJBB PHNL": { "flightNumber": "559" },
+        "PHNL RJBB": { "flightNumber": "560" },
+        
+        "RJBB KSFO": { "flightNumber": "561" },
+        "KSFO RJBB": { "flightNumber": "562" },
+        
+        "RJBB KSEA": { "flightNumber": "563" },
+        "KSEA RJBB": { "flightNumber": "564" },
+        
+        "RJBB KLAX": { "flightNumber": "565" },
+        "KLAX RJBB": { "flightNumber": "566" },
+        
+        "RJBB KORD": { "flightNumber": "567" },
+        "KORD RJBB": { "flightNumber": "568" },
+        
+        "RJBB KIAH": { "flightNumber": "569" },
+        "KIAH RJBB": { "flightNumber": "570" },
+        
+        "RJBB KJFK": { "flightNumber": "571" },
+        "KJFK RJBB": { "flightNumber": "572" }
+}

@@ -1,0 +1,13 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "623"
+      },
+      
+      {
+        "arrival": ["rjns","fsz","静岡"],
+        "flightNumber": "2831"
+      }
+    ]
+}

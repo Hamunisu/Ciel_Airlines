@@ -1,0 +1,53 @@
+{
+    "flights": [
+        {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"2200"
+
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber":"1661\n1663"
+
+      },
+
+      {
+        "arrival":["rjnk","kmq","小松"],
+        "flightNumber":"2210"
+
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+       "flightNumber":"5161\n5163\n5165\n5167\n5169\n5171\n5173\n5175"
+
+      },
+
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"5131\n5133\n5135\n5137\n5139\n5141\n5143\n5145"
+
+      },
+
+      {
+        "arrival":["rjow","iwj","石見"],
+        "flightNumber":"4349"
+
+
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"2230"
+
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+       "flightNumber":"2240\n2242\n2244"
+
+
+      }
+    ]
+}

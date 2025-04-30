@@ -1,0 +1,15 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber":"1461"
+
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2461"
+
+      }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjco","okd","丘珠"],
+        "flightNumber": "3471\n3473"
+      },
+      
+      {
+        "arrival": ["rjcc","cts","新千歳"],
+        "flightNumber": "3171\n3173"
+      },
+      
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "921\n923\n925\n927\n929"
+      },
+
+      {
+        "arrival": ["rjgg","NGO","中部","セントレア"],
+        "flightNumber": "2701\n12703\n2705"
+      },
+
+      {
+        "arrival": ["rjoo","itm","伊丹"],
+        "flightNumber": "2301"
+      },
+
+      {
+        "arrival": ["rjbb","kix","関西"],
+        "flightNumber": "2001"
+      },
+      {
+        "arrival": ["roah","oka","那覇"],
+        "flightNumber": "4401"
+      }
+    ]
+}

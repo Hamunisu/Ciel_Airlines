@@ -1,0 +1,18 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjco","okd","丘珠"],
+        "flightNumber": "3441"
+      },
+      
+      {
+        "arrival": ["rjcc","cts","新千歳"],
+        "flightNumber": "3141\n3143"
+      },
+      
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1541"
+      }
+    ]
+}

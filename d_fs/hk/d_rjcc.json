@@ -1,0 +1,108 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjcw","wkj","稚内"],
+        "flightNumber": "3160\n3162"
+      },
+
+      {
+        "arrival":["rjcm","mmb","女満別"],
+        "flightNumber":"3100\n3102\n3104"
+      },
+            
+      {
+        "arrival":["rjck","kuh","釧路"],
+        "flightNumber":"3140\n3142"
+      },
+            
+      {
+        "arrival":["rjcb","obo","帯広"],
+        "flightNumber":"3150"
+      },
+            
+      {
+        "arrival":["rjec","akj","旭川"],
+        "flightNumber": "3170\n3172"
+      },
+
+      {
+        "arrival": ["rjco","okd","丘珠"],
+        "flightNumber": "5200\n5202\n5204\n5206\n5208\n5210\n5212"
+      },
+
+      {
+        "arrival":["rjch","hkd","函館"],
+        "flightNumber":"3120\n3122"
+      },
+
+      {
+        "arrival":["rjcn","shb","中標津"],
+        "flightNumber":"3130"
+      },
+
+      {
+        "arrival":["rjsa","aoj","青森"],
+        "flightNumber":"3210\n3212"
+      },
+
+      {
+        "arrival":["rjsk","axt","秋田"],
+        "flightNumber":"3220\n3222"
+      },
+
+      {
+        "arrival":["rjsi","hna","花巻"],
+        "flightNumber":"3230\n3232"
+      },
+
+      {
+        "arrival":["rjsc","gaj","山形"],
+        "flightNumber":"3240\n3242"
+      },      
+      
+      {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"3180\n3182\n3184\n3186\n3188\n3190\n3192\n3194\n3196"
+      },
+          
+      {
+        "arrival":["rjsf","fks","福島"],
+        "flightNumber":"3250\n3252\n3254"
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1501\n1503\n1505\n1507\n1509\n1511\n1513\n1515\n1517\n1519"
+      },
+
+      {
+        "arrival":["rjaf","mmj","松本"],
+        "flightNumber":"3260\n3262"
+      },
+            
+      {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"2721\n2723\n2725\n2727\n2729\n2731"
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2311\n2313\n2315\n2317\n2319"
+      },
+
+      {
+        "arrival":["rjow","iwj","石見"],
+        "flightNumber":"4301\n4303\n4305"
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"3290\n3292\n3294\n3296\n3298"
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"3320\n3322\n3324\n3326"
+      }
+    ]
+}

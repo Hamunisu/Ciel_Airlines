@@ -1,0 +1,39 @@
+{
+    "flights": [
+        {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"1935\n1937"
+    
+          },
+
+          {
+            "arrival":["rjgg","ngo","中部","セントレア"],
+            "flightNumber":"2991"
+
+          },
+
+          {
+            "arrival":["rjoo","itm","伊丹"],
+            "flightNumber":"2601"
+    
+          },
+
+          {
+            "arrival":["rjow","iwj","石見"],
+            "flightNumber":"4361"
+
+          },
+
+          {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"4051"
+    
+          },
+    
+          {
+            "arrival":["roah","oka","那覇"],
+            "flightNumber":"4601"
+    
+          }
+        ]
+    }

@@ -1,0 +1,23 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1755"
+      },
+
+      {
+        "arrival": ["rjns","fsz","静岡"],
+        "flightNumber": "2811"
+      },
+
+      {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"2801"
+      },
+
+      {
+        "arrival":["ejsn","kij","新潟"],
+        "flightNumber":"4881"
+      }
+    ]
+}

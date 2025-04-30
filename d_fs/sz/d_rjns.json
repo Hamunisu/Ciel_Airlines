@@ -1,0 +1,48 @@
+{
+    "flights": [
+        {
+        "arrival":["rjsm","msj","三沢"],
+        "flightNumber":"4800"
+      },
+
+      {
+        "arrival":["rjaf","mmj","松本"],
+        "flightNumber":"441"
+      },
+
+      {
+        "arrival":["rjnw","ntq","能登"],
+        "flightNumber":"4810"
+      },
+
+      {
+        "arrival":["rjnk","kmq","小松"],
+        "flightNumber":"4820"
+      },
+
+      {
+        "arrival":["rjbd","shm","南紀白浜"],
+        "flightNumber":"4830"
+      },
+
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"2061"
+      },
+
+      {
+        "arrival":["rjot","tak","高松"],
+        "flightNumber":"4840"
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"3851"
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"4481"
+      }
+    ]
+}

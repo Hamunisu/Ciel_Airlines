@@ -1,0 +1,17 @@
+{
+    "flights": [
+            {
+              "arrival": ["RJTT", "HND", "羽田"],
+              "flightNumber": "1989"
+            },
+            {
+              "arrival": ["RJFK", "KOJ", "鹿児島"],
+              "flightNumber": "4231\n4233"
+            },
+            {
+              "arrival": ["ROAH", "OKA", "那覇"],
+              "flightNumber": "4641\n4643"
+            }
+          ]
+        }
+          

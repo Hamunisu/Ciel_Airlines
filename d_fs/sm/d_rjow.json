@@ -1,0 +1,93 @@
+{
+    "flights": [
+        {
+            "arrival":["rjcc","cts","新千歳"],
+            "flightNumber":"4300\n4302\n4304"
+
+          },
+
+          {
+            "arrival":["rjsa","aoj","青森"],
+            "flightNumber":"4310"
+
+          },
+
+          {
+            "arrival":["rjss","sdj","仙台"],
+            "flightNumber":"4314"
+
+          },
+
+          {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"431\n433\n435\n437\n439\n441\n443\n445\n447"
+
+          },
+
+          {
+            "arrival":["rjaf","mmj","松本"],
+            "flightNumber":"4318\n4320\n4322"
+
+          },
+
+          {
+            "arrival":["rjgg","ngo","中部","セントレア"],
+            "flightNumber":"4328\n4330"
+
+          },
+
+          {
+            "arrival":["rjnk","kmq","小松"],
+            "flightNumber":"4336"
+
+          },
+
+          {
+            "arrival":["rjoo","itm","伊丹"],
+            "flightNumber":"4340"
+
+          },
+                
+          {
+            "arrival":["rjbb","kix","関西"],
+            "flightNumber":"4344"
+
+          },
+                
+          {
+            "arrival":["rjbe","ukb","神戸"],
+            "flightNumber":"4348"
+
+          },
+
+          {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"4352"
+          },
+
+          {
+            "arrival":["rjfu","ngs","長崎"],
+            "flightNumber":"4356"
+          },
+
+          {
+            "arrival":["rjft","kmj","熊本"],
+            "flightNumber":"4360"
+          },
+
+          {
+            "arrival":["rjfm","kmi","宮崎"],
+            "flightNumber":"4364"
+          },
+                
+          {
+            "arrival":["rjfk","koj","鹿児島"],
+            "flightNumber":"4368"
+          },
+
+          {
+            "arrival":["roah","oka","那覇"],
+            "flightNumber":"4372\n4374"
+          }
+        ]
+    }

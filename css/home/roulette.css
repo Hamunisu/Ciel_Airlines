@@ -1,0 +1,81 @@
+.switcher {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+} 
+
+#domesticBtn  {
+  border-radius: 20px 0 0 20px;
+}
+
+#internationalBtn {
+  border-radius: 0 20px 20px 0;
+}
+
+#msfsBtn  {
+  border-radius: 20px 0 0 20px;
+}
+
+#xplaneBtn {
+  border-radius: 0 20px 20px 0;
+}
+
+#msfsContent {
+    display: block;
+  }
+
+  #xplaneContent {
+    display: none;
+  }
+
+  .r_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;    
+  }
+
+  .r_box{
+    width: 750px;
+    padding: 45px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(to right, #212d5d 0%, #4f6a94 50%, #7a8cb5 100%);
+    box-shadow: 0 4px 6px #4d4d4d;
+    flex-direction: column; 
+  }
+  
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .r_box h2 {
+    color: white;
+  }
+  .r_box select {
+    font-size: 16px;
+    padding: 5px;
+    color: #0F2540;
+  }
+
+  .r_box select option {
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    background-color: #212d5d;
+  }
+
+  #r_result #r_x_result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }

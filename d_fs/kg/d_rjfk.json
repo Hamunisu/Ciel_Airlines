@@ -1,0 +1,85 @@
+{
+    "flights": [
+    {
+        "arrival":["rjsf","fks","福島"],
+        "flightNumber":"212"
+    }, 
+
+    {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber":"1201\n1203\n1205\n1207\n1209"
+
+    },
+
+    {
+        "arrival":["rjaf","mmj","松本"],
+        "flightNumber":"390"
+    },
+
+    {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"3021"
+
+    },
+
+    {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2621"
+
+      },
+            
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"2121"
+
+      },
+
+      {
+        "arrival":["rjot","tak","高松"],
+        "flightNumber":"314"
+
+      },
+
+      {
+        "arrival":["rjow","iwj","石見"],
+        "flightNumber":"4369"
+
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"4061\n4063\n4065\n4067"
+
+      },
+
+      {
+        "arrival":["rjfg","kum","種子島"],
+        "flightNumber":"4220"
+
+      },
+
+      {
+        "arrival":["rjfc","kum","屋久島"],
+        "flightNumber":"4210\n4212"
+
+      },
+      
+      {
+        "arrival":["rjka","asj","奄美"],
+        "flightNumber":"4230\n4232"
+
+      },
+      
+      {
+        "arrival":["rjki","kkx","喜界"],
+        "flightNumber":"4240"
+
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"4621\n4623"
+
+      }
+    ]
+}

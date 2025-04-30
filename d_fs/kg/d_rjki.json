@@ -1,0 +1,12 @@
+{
+    "flights": [
+            {
+              "arrival": ["rjfk"],
+              "flightNumber": "4241"
+            },
+            {
+              "arrival": ["roah"],
+              "flightNumber": "4651"
+            }
+          ]
+        }          

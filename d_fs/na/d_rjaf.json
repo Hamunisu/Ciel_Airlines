@@ -1,0 +1,73 @@
+{
+  "flights": [
+      {
+      "arrival": ["rjco","okd","丘珠"],
+      "flightNumber": "3501\n3503"
+    },
+    
+    {
+      "arrival": ["rjcc","cts","新千歳"],
+      "flightNumber": "3261\n3203"
+    },
+
+    {
+      "arrival":["rjss","sdj","仙台"],
+      "flightNumber":"3701"
+    },
+        
+    {
+      "arrival":["rjsf","fks","福島"],
+      "flightNumber":"104"
+    },
+
+    {
+      "arrival": ["rjtt","hnd","羽田"],
+      "flightNumber": "1105\n1107\n1109"
+    },
+
+    {
+      "arrival": ["rjns","fsz","静岡"],
+      "flightNumber": "410"
+    },
+
+    {
+      "arrival":["rjgg","ngo","中部","セントレア"],
+      "flightNumber":"2791"
+    },
+
+    {
+      "arrival":["rjnt","toy","富山"],
+      "flightNumber":"4250"
+    },
+
+    {
+      "arrival":["rjoo","itm","伊丹"],
+      "flightNumber":"2401"
+    },
+          
+    {
+      "arrival":["rjbb","kix","関西"],
+      "flightNumber":"2091"
+    },
+
+    {
+      "arrival":["rjow","iwj","石見"],
+      "flightNumber":"4319\n4321\n4323"
+    },
+
+    {
+      "arrival":["rjff","fuk","福岡"],
+      "flightNumber":"3841"
+    },
+
+    {
+      "arrival":["rjfk","koj","鹿児島"],
+      "flightNumber":"391"
+    },
+
+    {
+      "arrival":["roah","oka","那覇"],
+      "flightNumber":"4451"
+    }
+  ]
+}

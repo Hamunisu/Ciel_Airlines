@@ -1,0 +1,316 @@
+{
+  "airports": [
+    {"icao": "RJCC","iata": "CTS","name": "新千歳"},
+    
+    {"icao": "RJTT","iata": "HND","name": "羽田"},
+    
+    {"icao": "RJAA","iata": "NRT","name": "成田"},
+    
+    {"icao": "RJGG","iata": "NGO","name": "セントレア"},
+    
+    {"icao": "RJBB","iata": "KIX","name": "関西"},
+
+
+    { "icao": "EGLL", "iata": "LHR", "name": "ヒースロー" },
+
+    { "icao": "EIDW", "iata": "DUB", "name": "ダブリン" },
+
+    { "icao": "BIKF", "iata": "KEF", "name": "ケプラヴィーク" },
+
+
+    { "icao": "LFPG", "iata": "CDG", "name": "シャルル・ド・ゴール" },
+
+    { "icao": "LEMD", "iata": "MAD", "name": "マドリード・バラハス" },
+
+    { "icao": "LPPT", "iata": "LIS", "name": "リスボン" },
+
+
+    { "icao": "EDDF", "iata": "FRA", "name": "フランクフルト" },
+
+    { "icao": "EDDM", "iata": "MUC", "name": "ミュンヘン" },
+
+    { "icao": "EDDC", "iata": "DRS", "name": "ドレスデン" },
+
+    { "icao": "EDDB", "iata": "BER", "name": "ベルリン・ブランデンブルク" },
+
+
+    { "icao": "ELLX", "iata": "LUX", "name": "ルクセンブルク" },
+
+
+    { "icao": "EBBR", "iata": "BRU", "name": "ブリュッセル" },
+
+
+    { "icao": "EHAM", "iata": "AMS", "name": "スキポール" },
+
+
+    { "icao": "LOWW", "iata": "VIE", "name": "ウィーン" },
+
+
+    { "icao": "EPWA", "iata": "WAW", "name": "ワルシャワ" },
+
+
+    { "icao": "LKPR", "iata": "PRG", "name": "プラハ" },
+
+
+    { "icao": "LHBP", "iata": "BUD", "name": "ブダペスト" },
+
+
+    { "icao": "LROP", "iata": "OTP", "name": "ブカレスト" },
+
+
+    { "icao": "LSGG", "iata": "GVA", "name": "ジュネーブ" },
+
+
+    { "icao": "LIRF", "iata": "FCO", "name": "フィウミチーノ" },
+
+    { "icao": "LIMC", "iata": "MXP", "name": "ミラノ・マルペンサ" },
+
+
+    { "icao": "EKCH", "iata": "CPH", "name": "コペンハーゲン" },
+
+
+    { "icao": "ENGM", "iata": "OSL", "name": "オスロ" },
+
+
+    { "icao": "ESSA", "iata": "ARN", "name": "ストックホルム・アーランダ" },
+
+
+    { "icao": "EFHK", "iata": "HEL", "name": "ヘルシンキ" },
+
+
+    { "icao": "EETN", "iata": "TLL", "name": "タリン" },
+
+
+    { "icao": "EVRA", "iata": "RIX", "name": "リガ" },
+
+
+    { "icao": "EYVI", "iata": "VNO", "name": "ビリニュス" },
+
+
+    { "icao": "UKBB", "iata": "KBP", "name": "ボルィースピリ" },
+
+
+    { "icao": "UMMS", "iata": "MSQ", "name": "ミンスク" },
+
+
+    { "icao": "UUEE", "iata": "SVO", "name": "シェレメーチエヴォ" },
+
+    { "icao": "UUWW", "iata": "VKO", "name": "ブヌーコヴォ" },
+
+    { "icao": "UUBW", "iata": "ZIA", "name": "ジュコーフスキー" },
+
+    { "icao": "UUDD", "iata": "DME", "name": "ドモジェドヴォ" },
+
+    { "icao": "ULLI", "iata": "LED", "name": "プルコヴォ" },
+
+    { "icao": "URSS", "iata": "AER", "name": "ソチ" },
+
+
+    { "icao": "PHNL", "iata": "HNL", "name": "ホノルル" },
+
+    { "icao": "KSFO", "iata": "SFO", "name": "サンフランシスコ" },
+
+    { "icao": "KSEA", "iata": "SEA", "name": "シアトル" },
+
+    { "icao": "KLAX", "iata": "LAX", "name": "ロサンゼルス" },
+
+    { "icao": "KORD", "iata": "ORD", "name": "シカゴ・オヘア" },
+
+    { "icao": "KIAH", "iata": "IAH", "name": "ヒューストン・インターコンチネンタル" },
+
+    { "icao": "KJFK", "iata": "JFK", "name": "ジョン・F・ケネディ" },
+
+
+    { "icao": "PANC", "iata": "ANC", "name": "アンカレッジ" },
+
+
+    { "icao": "CYVR", "iata": "YVR", "name": "バンクーバー" },
+
+    { "icao": "CYYC", "iata": "YYC", "name": "カルガリー" },
+
+    { "icao": "CYYZ", "iata": "YYZ", "name": "トロント" },
+
+    { "icao": "CYUL", "iata": "YUL", "name": "モントリオール" },
+
+
+    { "icao": "MMMX", "iata": "MEX", "name": "メキシコシティ" },
+
+
+    { "icao": "RKSS", "iata": "GMP", "name": "金浦" },
+
+    { "icao": "RKSI", "iata": "ICN", "name": "仁川" },
+
+
+    { "icao": "ZKPY", "iata": "FNJ", "name": "平壌" },
+
+
+    { "icao": "RCTP", "iata": "TPE", "name": "桃園" },
+
+    { "icao": "RCSS", "iata": "TSA", "name": "松山" },
+
+
+    { "icao": "VHHH", "iata": "HKG", "name": "香港" },
+
+
+    { "icao": "RPLL", "iata": "MNL", "name": "マニラ" },
+
+
+    { "icao": "VVNB", "iata": "HAN", "name": "ハノイ" },
+
+    { "icao": "VVTS", "iata": "SGN", "name": "ホーチミン" },
+
+
+    { "icao": "VTBS", "iata": "BKK", "name": "バンコク" },
+
+
+    { "icao": "WBKK", "iata": "BKI", "name": "コタキナバル" },
+
+
+    { "icao": "WMKK", "iata": "KUL", "name": "クアラルンプール" },
+
+
+    { "icao": "WSSS", "iata": "SIN", "name": "シンガポール" },
+
+
+    { "icao": "WIII", "iata": "CGK", "name": "ジャカルタ" },
+
+
+    { "icao": "ZBAA", "iata": "PEK", "name": "北京" },
+
+    { "icao": "ZYTL", "iata": "TAO", "name": "青島" },
+
+    { "icao": "ZSQD", "iata": "TAO", "name": "青島流亭" },
+
+    { "icao": "ZSPD", "iata": "PVG", "name": "上海浦東" },
+
+
+    { "icao": "VIDP", "iata": "DEL", "name": "デリー" },
+
+    { "icao": "VABB", "iata": "BOM", "name": "ムンバイ" },
+
+
+    { "icao": "VNKT", "iata": "KTM", "name": "カトマンズ" },
+
+
+    { "icao": "UACC", "iata": "NQZ", "name": "アスタナ" },
+
+
+    { "icao": "OMDB", "iata": "DXB", "name": "ドバイ" },
+
+    { "icao": "OMAA", "iata": "AUH", "name": "アブダビ" },
+
+
+    { "icao": "OTHH", "iata": "DOH", "name": "ドーハ" },
+
+
+    { "icao": "OOMS", "iata": "MCT", "name": "マスカット" },
+
+
+    { "icao": "OEJN", "iata": "JED", "name": "ジェッダ" },
+
+
+    { "icao": "OJAI", "iata": "AMM", "name": "アンマン" },
+
+
+    { "icao": "LLBG", "iata": "TLV", "name": "テルアビブ" },
+
+
+    { "icao": "OLBA", "iata": "BEY", "name": "ベイルート" },
+
+
+    { "icao": "OSDI", "iata": "DAM", "name": "ダマスカス" },
+
+
+    { "icao": "ORBI", "iata": "BGW", "name": "バグダッド" },
+
+
+    { "icao": "OKKK", "iata": "KWI", "name": "クウェート" },
+
+
+    { "icao": "OIIE", "iata": "IKA", "name": "テヘラン" },
+
+
+    { "icao": "OAKB", "iata": "KBL", "name": "カブール" },
+
+
+
+
+      {"icao": "RJCW", "iata": "WKJ", "name": "稚内"},
+      {"icao": "RJER", "iata": "RIS", "name": "利尻"},
+      {"icao": "RJCR", "iata": "RBJ", "name": "礼文"},
+      {"icao": "RJCM", "iata": "MMB", "name": "女満別"},
+      {"icao": "RJCK", "iata": "KUH", "name": "釧路"},
+      {"icao": "RJCB", "iata": "OBO", "name": "帯広"},
+      {"icao": "RJEC", "iata": "AKJ", "name": "旭川"},
+      {"icao": "RJCO", "iata": "OKD", "name": "丘珠"},
+      {"icao": "RJCH", "iata": "HKD", "name": "函館"},
+      {"icao": "RJEO", "iata": "OIR", "name": "奥尻"},
+      {"icao": "RJCN", "iata": "SHB", "name": "中標津"},
+      {"icao": "RJEB", "iata": "MEB", "name": "紋別"},
+      {"icao": "RJSA", "iata": "AOJ", "name": "青森"},
+      {"icao": "RJSM", "iata": "MSJ", "name": "三沢"},
+      {"icao": "RJSR", "iata": "ONJ", "name": "大館能代"},
+      {"icao": "RJSK", "iata": "AXT", "name": "秋田"},
+      {"icao": "RJSI", "iata": "HNA", "name": "花巻"},
+      {"icao": "RJSY", "iata": "SYO", "name": "庄内"},
+      {"icao": "RJSC", "iata": "GAJ", "name": "山形"},
+      {"icao": "RJSS", "iata": "SDJ", "name": "仙台"},
+      {"icao": "RJSF", "iata": "FKS", "name": "福島"},
+      {"icao": "RJAH", "iata": "IBR", "name": "茨城"},
+      {"icao": "RJTO", "iata": "OIM", "name": "大島"},
+      {"icao": "RJTH", "iata": "HAC", "name": "八丈島"},
+      {"icao": "RJAZ", "iata": "KZU", "name": "神津島"},
+      {"icao": "RJNS", "iata": "FSZ", "name": "静岡"},
+      {"icao": "RJAF", "iata": "MMJ", "name": "松本"},
+      {"icao": "RJNA", "iata": "NKM", "name": "小牧"},
+      {"icao": "RJSN", "iata": "KIJ", "name": "新潟"},
+      {"icao": "RJSD", "iata": "SDS", "name": "佐渡"},
+      {"icao": "RJNT", "iata": "TOY", "name": "富山"},
+      {"icao": "RJNW", "iata": "NTQ", "name": "能登"},
+      {"icao": "RJNK", "iata": "KMQ", "name": "小松"},
+      {"icao": "RJNf", "iata": "FKJ", "name": "福井"},
+      {"icao": "RJBD", "iata": "SHM", "name": "和歌山"},
+      {"icao": "RJOO", "iata": "ITM", "name": "伊丹"},
+      {"icao": "RJBE", "iata": "UKB", "name": "神戸"},
+      {"icao": "RJBT", "iata": "TJH", "name": "但馬"},
+      {"icao": "RJOS", "iata": "TKS", "name": "徳島"},
+      {"icao": "RJOK", "iata": "KCZ", "name": "高知"},
+      {"icao": "RJOM", "iata": "MYJ", "name": "松山"},
+      {"icao": "RJOT", "iata": "TAK", "name": "高松"},
+      {"icao": "RJOR", "iata": "TTJ", "name": "鳥取"},
+      {"icao": "RJOH", "iata": "TGJ", "name": "米子"},
+      {"icao": "RJOC", "iata": "IZO", "name": "出雲"},
+      {"icao": "RJNO", "iata": "OKI", "name": "隠岐"},
+      {"icao": "RJOW", "iata": "IWJ", "name": "石見"},
+      {"icao": "RJOB", "iata": "OKJ", "name": "岡山"},
+      {"icao": "RJOA", "iata": "HIJ", "name": "広島"},
+      {"icao": "RJDC", "iata": "UBJ", "name": "宇部"},
+      {"icao": "RJOI", "iata": "IWK", "name": "岩国"},
+      {"icao": "RJFR", "iata": "KKJ", "name": "北九州"},
+      {"icao": "RJFF", "iata": "FUK", "name": "福岡"},
+      {"icao": "RJFO", "iata": "OIT", "name": "大分"},
+      {"icao": "RJFS", "iata": "HSG", "name": "佐賀"},
+      {"icao": "RJFU", "iata": "NGS", "name": "長崎"},
+      {"icao": "RJFE", "iata": "FUJ", "name": "福江"},
+      {"icao": "RJDB", "iata": "IKI", "name": "壱岐"},
+      {"icao": "RJDT", "iata": "TSJ", "name": "対馬"},
+      {"icao": "RJDA", "iata": "AXJ", "name": "天草"},
+      {"icao": "RJFT", "iata": "KMJ", "name": "熊本"},
+      {"icao": "RJFM", "iata": "KMI", "name": "宮崎"},
+      {"icao": "RJFK", "iata": "KOJ", "name": "鹿児島"},
+      {"icao": "RJFG", "iata": "TNE", "name": "種子島"},
+      {"icao": "RJFC", "iata": "KUM", "name": "屋久島"},
+      {"icao": "RJKA", "iata": "ASJ", "name": "奄美"},
+      {"icao": "RJKI", "iata": "KKX", "name": "喜界"},
+      {"icao": "RJKB", "iata": "OKE", "name": "沖永良部"},
+      {"icao": "RJKN", "iata": "RNJ", "name": "与論"},
+      {"icao": "ROAH", "iata": "OKA", "name": "沖縄"},
+      {"icao": "ROIG", "iata": "ISG", "name": "石垣"},
+      {"icao": "RORK", "iata": "KIT", "name": "北大東"},
+      {"icao": "ROMD", "iata": "MMD", "name": "南大東"},
+      {"icao": "ROKJ", "iata": "UEO", "name": "久米"},
+      {"icao": "ROMY", "iata": "MMY", "name": "宮古"},
+      {"icao": "RORS", "iata": "SHI", "name": "下地"},
+      {"icao": "ROYN", "iata": "OGN", "name": "与那国"}
+  ]
+}

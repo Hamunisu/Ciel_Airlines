@@ -1,0 +1,14 @@
+{
+    "flights": [
+        {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"4011"
+          },
+
+          {
+            "arrival":["rjfu","ngs","長崎"],
+            "flightNumber":"4891"
+
+          }
+        ]
+    }

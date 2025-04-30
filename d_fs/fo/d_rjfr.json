@@ -1,0 +1,51 @@
+{
+    "flights": [
+        {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"3731"
+
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber":"1929"
+
+      },
+
+      {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"2961"
+
+      },
+
+      {
+        "arrival":["rjnk","kmq","小松"],
+        "flightNumber":"4140"
+
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2551"
+
+      },
+            
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"2101"
+
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"5301\n5303\n5305\n5307\n5309\n5311\n5313\n5315"
+
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"4150"
+
+      }
+    ]
+}

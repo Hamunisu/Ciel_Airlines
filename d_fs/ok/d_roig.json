@@ -1,0 +1,13 @@
+{
+    "flights": [
+            {
+              "arrival": ["rjtt", "hnd", "羽田"],
+              "flightNumber": "1993"
+            },
+            {
+              "arrival": ["roah", "oka", "那覇"],
+              "flightNumber": "4741\n4743"
+            }
+          ]
+        }
+          

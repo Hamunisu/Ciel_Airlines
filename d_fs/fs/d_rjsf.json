@@ -1,0 +1,53 @@
+{
+    "flights": [
+        {
+        "arrival": ["rjcc","cts","新千歳"],
+        "flightNumber": "3251\n3253\n3255"
+      },
+
+      {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"3661"
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "627"
+      },
+
+      {
+        "arrival":["rjaf","mmj","松本"],
+        "flightNumber":"105"
+      },
+            
+      {
+        "arrival":["rjgg","ngo","中部","セントレア"],
+        "flightNumber":"2771"
+      },
+
+      {
+        "arrival":["rjoo","itm","伊丹"],
+        "flightNumber":"2341"
+      },
+            
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"2031"
+      },
+
+      {
+        "arrival":["rjff","fuk","福岡"],
+        "flightNumber":"3831"
+      },
+
+      {
+        "arrival":["rjfk","koj","鹿児島"],
+        "flightNumber":"213"
+      },
+
+      {
+        "arrival":["roah","oka","那覇"],
+        "flightNumber":"4431"
+      }
+    ]
+}

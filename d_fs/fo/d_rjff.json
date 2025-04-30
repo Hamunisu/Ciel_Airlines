@@ -1,0 +1,230 @@
+{
+    "flights": [
+        {
+            "arrival":["rjcc","cts","新千歳"],
+            "flightNumber":"3291\n3293\n3295\n3297\n3299"
+
+          },
+
+          {
+            "arrival":["rjsa","aoj","青森"],
+            "flightNumber":"3800\n3802"
+
+          },
+
+          {
+            "arrival":["rjsk","axt","秋田"],
+            "flightNumber":"3820"
+
+          },
+
+          {
+            "arrival":["rjss","sdj","仙台"],
+            "flightNumber":"3721"
+
+          },
+              
+          {
+            "arrival":["rjsf","fks","福島"],
+            "flightNumber":"3830"
+
+          }, 
+
+          {
+            "arrival":["rjah","ibr","百里"],
+            "flightNumber":"522\n524"
+          }, 
+
+          {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"1941\n1943\n1945\n1947\n1949\n1951\n1953"
+
+          },
+
+          {
+            "arrival": ["rjns","fsz","静岡"],
+            "flightNumber":"3850"
+
+          },
+
+          {
+            "arrival":["rjaf","mmj","松本"],
+            "flightNumber":"3840"
+
+          },
+
+          {
+            "arrival":["rjgg","ngo","中部","セントレア"],
+            "flightNumber":"2931\n2933\n2935\n2937\n2939\n2941\n2943\n2945"
+
+          },
+
+          {
+            "arrival":["ejsn","kij","新潟"],
+            "flightNumber":"3860"
+
+          },
+
+          {
+            "arrival":["rjnk","kmq","小松"],
+            "flightNumber":"3870"
+
+          },
+
+          {
+            "arrival":["rjoo","itm","伊丹"],
+            "flightNumber":"2561\n2563\n2565\n2567\n2569\n2571"
+
+          },
+                
+          {
+            "arrival":["rjbb","kix","関西"],
+            "flightNumber":"2111\n2113\n2115\n2117"
+
+          },
+                
+          {
+            "arrival":["rjbe","ukb","神戸"],
+            "flightNumber":"2231"
+
+          },
+
+          {
+            "arrival":["rjos","tks","徳島"],
+            "flightNumber":"3950"
+
+          },
+
+          {
+            "arrival":["rjok","kcz","高知"],
+            "flightNumber":"1830"
+          },
+                
+          {
+            "arrival":["rjom","myj","松山"],
+            "flightNumber":"3960"
+
+          },
+                
+          {
+            "arrival":["rjom","myj","松山"],
+            "flightNumber":"3970"
+
+          },
+
+          {
+            "arrival":["rjot","tak","高松"],
+            "flightNumber":"3940"
+
+          },
+                
+          {
+            "arrival":["rjor","ttj","鳥取"],
+            "flightNumber":"3930"
+
+          },
+
+          {
+            "arrival":["rjob","okj","岡山"],
+            "flightNumber":"3880"
+
+          },
+                
+          {
+            "arrival":["rjoa","hij","広島"],
+            "flightNumber":"3890"
+
+          },
+                
+          {
+            "arrival":["rjow","iwj","石見"],
+            "flightNumber":"4353"
+
+          },
+                
+          {
+            "arrival":["rjdc","ubj","宇部"],
+            "flightNumber":"3920"
+
+          },
+                
+          {
+            "arrival":["rjoi","iwk","岩国"],
+            "flightNumber":"3910"
+
+          },
+                
+          {
+            "arrival":["rjfr","kkj","北九州"],
+            "flightNumber":"5300\n5302\n5304\n5306\n5308\n5310\n5312\n5314"
+
+          },
+
+          {
+            "arrival":["rjfo","oit","大分"],
+            "flightNumber":"3980"
+
+          },
+                
+          {
+            "arrival":["rjfs","hsg","佐賀"],
+            "flightNumber":"4030"
+
+          },
+                
+          {
+            "arrival":["rjfu","ngs","長崎"],
+            "flightNumber":"4020"
+
+          },
+
+          {
+            "arrival":["rjfe","fuj","福江"],
+            "flightNumber":"4010"
+
+          },
+
+          {
+            "arrival":["rjdb","iki","壱岐"],
+            "flightNumber":"4000"
+
+          },
+          
+          {
+            "arrival":["rjdt","tsj","対馬"],
+            "flightNumber":"3990"
+
+          },
+
+          {
+            "arrival":["rjda","axj","天草"],
+            "flightNumber":"4040"
+
+          },
+
+          {
+            "arrival":["rjft","kmj","熊本"],
+            "flightNumber":"4090\n4092"
+
+          },
+                
+          {
+            "arrival":["rjfm","kmi","宮崎"],
+            "flightNumber":"4090\n4092"
+
+          },
+                
+          {
+            "arrival":["rjfk","koj","鹿児島"],
+            "flightNumber":"4060\n4062\n4064\n4066"
+
+          },
+
+          {
+            "arrival":["roah","oka","那覇"],
+            "flightNumber":"4110\n4112\n4114\n4116"
+
+          }
+
+    ]
+}

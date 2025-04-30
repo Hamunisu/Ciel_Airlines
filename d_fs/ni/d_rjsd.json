@@ -1,0 +1,23 @@
+{
+    "flights": [
+        {
+        "arrival":["rjss","sdj","仙台"],
+        "flightNumber":"3691"
+      },
+
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1749"
+      },
+
+      {
+        "arrival":["ejsn","kij","新潟"],
+        "flightNumber":"4871"
+      },
+
+      {
+        "arrival":["rjnk","kmq","小松"],
+        "flightNumber":"4851"
+      }
+    ]
+}

@@ -1,0 +1,98 @@
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 45px;
+  font-size: 50px;
+  padding: 0.5em;
+  background: #8AA9B6;
+  border-left: solid 10px #212d5d;
+}
+  
+  /* h2 */
+
+ h2{
+    color: #212d5d;
+} 
+
+.flight_number {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #212d5d;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+  
+/* 全体のラッパー（枠は削除） */
+.patch {
+    width: 75%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 各お知らせ項目（下線のみで区切る） */
+  .patch-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #2B5F75;
+    padding: 75px;
+  }
+  
+  /* 最後の項目は下線をつけない */
+  .patch-item:last-child {
+    border-bottom: none;
+  }
+
+    /* 各お知らせ項目（下線のみで区切る） */
+    .patch-item-update {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #2B5F75;
+      padding: 45px;
+    }
+    
+    /* 最後の項目は下線をつけない */
+    .patch-item-update:last-child {
+      border-bottom: none;
+    }
+    
+  
+  .date {
+    width: 120px;
+    text-align: center;
+    font-weight: none;
+    color: white;
+  }
+  
+  .tag {
+    width: 100px;
+    text-align: center;
+    background-color: #2B5F75;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 10px;
+    color: white;
+  }
+
+  .tag-v2 {
+    width: 100px;
+    text-align: center;
+    background-color: #ff9f9f;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0 10px;
+    color: white;
+  }
+  
+  /* 内容部分：残りの幅を埋める */
+  .content {
+    flex: 1;
+    word-wrap: break-word;
+    color: #212d5d;
+  }

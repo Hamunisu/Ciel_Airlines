@@ -1,0 +1,28 @@
+{
+    "flights": [
+        {
+        "arrival":["rjsy","syo","庄内"],
+        "flightNumber":"3050"
+      }, 
+      
+      {
+        "arrival": ["rjtt","hnd","羽田"],
+        "flightNumber": "1743"
+      },
+
+      {
+        "arrival":["rjbb","kix","関西"],
+        "flightNumber":"2071"
+      },
+
+      {
+        "arrival":["rjor","ttj","鳥取"],
+        "flightNumber":"3060"
+      },
+
+      {
+        "arrival":["ejoi","iwk","岩国"],
+        "flightNumber":"3070"
+      }
+    ]
+}

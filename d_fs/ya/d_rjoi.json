@@ -1,0 +1,19 @@
+{
+    "flights": [
+        {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"1441"
+    
+          },
+
+          {
+            "arrival":["rjna","nkm","小牧"],
+            "flightNumber":"3071"
+          },
+
+          {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"3911"
+          }
+        ]
+    }

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<!--日本語-->
+
+<html lang="ja">
+
+<!--準備-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ciel Airlines</title>
+  <meta name="description" content="Ciel Airlines_Official web site">
+
+  <link rel="stylesheet" href="https://unpkg.com/ress@5.0.2/dist/ress.min.css">
+  <link rel="stylesheet" href="css/all/a_pack.css">
+  <link rel="stylesheet" href="css/all/a_hm.css">
+  <link rel="stylesheet" href="css/home/search.css">
+  <link rel="stylesheet" href="css/home/roulette.css">
+  <link rel="stylesheet" href="css/home/slide.css">
+  
+
+  <!--ファビコン-->
+<link rel="icon" type="image/png" href="image/fv/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="image/fv/favicon.svg" />
+<link rel="shortcut icon" href="image/fv/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="image/fv/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="CIELAIR" />
+<link rel="manifest" href="image/fv/site.webmanifest">
+
+<!-- English -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+<!-- Japanese -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="image/ciellogo.png" alt="Logo" draggable="false">
+        </a>
+          <div class="head-link english japanese">
+            <a href="index.html">home</a>
+            <a href="https://dispatch.simbrief.com/briefing/latest" target="_blank" rel="noopener noreferrer">simbrief</a>
+            <a href="https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119"target="_blank" rel="noopener noreferrer">ログブック</a>
+            <div class="burger burger-slip burger-right">
+              <div class="burger-lines">
+              </div>
+            </div>
+          </div>
+      </header>
+      <div class="header-back"></div>
+
+<!-- HM -->
+    <div class="overlay"></div>
+    <div class="menu">
+      <div class="menu-item english">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="menu-item english">
+        <a href="html/sub/gallery.html">Gallery</a>
+      </div>
+      <div class="menu-item english">
+        <a href="html/sub/company.html">Company</a>
+      </div>
+    </div>
+
+<!-- /共通 -->
+
+<!-- スライダー -->
+ <div class="slider-container">
+  <div class="slider">
+    <div class="slides">
+      <div class="slide"><a href="html/pages/news.html"><img src="image/slider/news.png" alt="お知らせ" draggable="false"></a></div>
+      <div class="slide"><a href="html/pages/route.html"><img src="image/slider/kobe_be.jpg" alt="おすすめ路線" draggable="false"></a></div>
+      <!-- <div class="slide">スライド3</div>
+      <div class="slide">スライド4</div> -->
+    </div>
+    </div>
+ </div>
+
+<div class="navigation">
+  <button class="nav-btn" data-slide="0"></button>
+  <button class="nav-btn" data-slide="1"></button>
+  <!-- <button class="nav-btn" data-slide="2"></button>
+  <button class="nav-btn" data-slide="3"></button> -->
+</div>
+
+
+<!-- 便名検索切り替え -->
+<div class="switcher english">
+  <button id="domesticBtn" class="active">国内</button>
+  <button id="internationalBtn">国際</button>
+</div>
+
+
+<!-- 国内線 -->
+<div id="domesticContent" class="content">
+  <h2 class="english japanese">国内線</h2>
+    <div class="box">
+      <input type="text" id="departure" class="english" placeholder="Departure" autocomplete="off" spellcheck="false">
+      <button id="domesticSwapButton" type="button" tabindex="-1">
+        <img src="image/swap.png" alt="swap" class="swap-icon">
+      </button>
+      <input type="text" id="arrival" class="english" placeholder="Arrival" autocomplete="off" spellcheck="false">
+    </div>
+    <button id="search" class="search japanese">検索</button>    
+    
+    <select id="aircraft" name="aircraft" class="english">
+
+      <option value="">none</option>
+      <option value="A109">A109</option>
+      <option value="A306">A306</option>
+      <option value="A319">A319</option>
+      <option value="A320">A320</option>
+      <option value="A20N">A20N</option>
+      <option value="A321">A321</option>
+      <option value="A339">A339</option>
+      <option value="A346">A346</option>
+      <option value="A359">A359</option>
+      <option value="A35K">A35K</option>
+      <option value="A388">A388</option>
+      <option value="B737">B737</option>
+      <option value="B738">B738</option>
+      <option value="B38M">B38M</option>
+      <option value="B742">B742</option>
+      <option value="B748">B748</option>
+      <option value="B762">B762</option>
+      <option value="B763">B763</option>
+      <option value="B77L">B77L</option>
+      <option value="B77W">B77W</option>
+      <option value="B788">B788</option>
+      <option value="B789">B789</option>
+      <option value="MD11">MD11</option>
+      <option value="MD1F">MD1F</option>
+      <option value="MD82">MD82</option>
+      <option value="MD83">MD83</option>
+      <option value="MD88">MD88</option>
+      <option value="AT42">AT42</option>
+      <option value="HDJT">HDJT</option>
+      <option value="SR22">SR22</option>
+      <option value="A225">A225</option>
+      <option value="H145">H145</option>
+      <option value="R22">R22</option>
+      
+      </select>
+
+      <div id="result" class="result">
+      </div>
+</div>   
+
+<!-- 国際線 -->
+<div id="internationalContent" class="content hidden">
+  <h2 class="japanese english">international</h2>
+  <div class="box">
+    <input type="text" id="i_departure" class="english" placeholder="Departure" autocomplete="off" spellcheck="false">
+    <button id="internationalSwapButton" type="button" tabindex="-1">
+      <img src="image/swap.png" alt="swap" class="swap-icon">
+    </button>
+    <input type="text" id="i_arrival" class="english" placeholder="Arrival" autocomplete="off" spellcheck="false">
+  </div>
+    <button id="i_search" class="search japanese">検索</button>
+
+    <select id="i_aircraft" name="aircraft" class="english">
+
+      <option value="">none</option>
+      <option value="A109">A109</option>
+      <option value="A306">A306</option>
+      <option value="A319">A319</option>
+      <option value="A320">A320</option>
+      <option value="A20N">A20N</option>
+      <option value="A321">A321</option>
+      <option value="A339">A339</option>
+      <option value="A346">A346</option>
+      <option value="A359">A359</option>
+      <option value="A35K">A35K</option>
+      <option value="A388">A388</option>
+      <option value="B737">B737</option>
+      <option value="B738">B738</option>
+      <option value="B38M">B38M</option>
+      <option value="B742">B742</option>
+      <option value="B748">B748</option>
+      <option value="B762">B762</option>
+      <option value="B763">B763</option>
+      <option value="B77L">B77L</option>
+      <option value="B77W">B77W</option>
+      <option value="B788">B788</option>
+      <option value="B789">B789</option>
+      <option value="MD11">MD11</option>
+      <option value="MD1F">MD1F</option>
+      <option value="MD82">MD82</option>
+      <option value="MD83">MD83</option>
+      <option value="MD88">MD88</option>
+      <option value="AT42">AT42</option>
+      <option value="HDJT">HDJT</option>
+      <option value="SR22">SR22</option>
+      <option value="A225">A225</option>
+      <option value="H145">H145</option>
+      <option value="R22">R22</option>
+      
+      </select>
+
+  <div id="i_result" class="result">
+  </div>
+</div>
+
+<!-- ルーレット切り替え -->
+<div class="switcher english">
+  <button id="msfsBtn" class="active">MSFS</button>
+  <button id="xplaneBtn">X-plane</button>
+</div>
+
+<!--ルーレット msfs  -->
+<div class="r_container english japanese">
+  <div id="msfsContent">
+    <div class="r_box">
+      <h2>機体ルーレット</h2>
+        <label for="r_select"><h3>機体を選んでください:</label>
+          <select id="r_select"></h3></select>
+        <button id="r_button" class="search">スピン</button>
+        <p id="r_result">結果がここに表示されます</p>
+    </div>
+  </div>
+</div>
+
+<!-- ルーレット x-plane -->
+<div class="r_container english japanese">
+  <div id="xplaneContent">
+  <div class="r_box">
+  <h2>機体ルーレット</h2>
+  <label for="r_x_select"><h3>機体を選んでください:</label>
+  <select id="r_x_select"></h3></select>
+  <button id="r_x_button" class="search">スピン</button>
+  <p id="r_x_result">結果がここに表示されます</p>
+  </div>
+</div>
+</div>
+
+<!-- script -->
+<script src="js/all/a_script.js"></script>
+<script src="js/home/h_script.js"></script>
+<script src="js/home/d_script.js"></script>
+<script src="js/home/i_script.js"></script>
+<script src="js/home/roulette.js"></script>
+<script src="js/home/slide.js"></script>
+
+    
+    
+    
+<!-- フッター -->
+<footer>
+  <p class="english">&copy; 2024-2025 Ciel Airlines.
+  </p> 
+  <!-- 関連リンク -->
+  <div class="foot-container">
+    <a href="html/legal/legal_matters.html" class="english">法的事項について</a>
+    <a href="html/legal/terms_of_use.html" class="english">利用規約について</a>
+    <a href="html/legal/privacy.html" class="english">プライバシーポリシー</a>
+    <a href="html/legal/license.html" class="english">ライセンス</a>
+  </div>
+  <!-- 架空明記 -->
+  <div class="virtual-container">
+    <p>当サイトに掲載されている航空会社名、便名などの情報は、Microsoft Flight SimulatorおよびX-Plane向けに制作された架空のものであり、実在の企業・団体とは一切関係ありません。</p>
+  </div>
+</footer>
+</body>
+</html>

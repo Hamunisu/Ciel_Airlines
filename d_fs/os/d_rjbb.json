@@ -1,0 +1,115 @@
+{
+    "flights":[
+        {
+        "arrival":["rjec","akj","旭川"],
+        "flightNumber":"2000"
+
+        },
+
+        {
+            "arrival":["rjsa","aoj","青森"],
+            "flightNumber":"2010"
+
+          },
+
+          {
+            "arrival":["rjss","sdj","仙台"],
+            "flightNumber":"2020"
+
+
+          },
+    
+          {
+            "arrival":["rjsf","fks","福島"],
+            "flightNumber":"2030"
+
+
+          }, 
+    
+          {
+            "arrival": ["rjtt","hnd","羽田"],
+            "flightNumber":"1621\n1623\n1625\n1627\n1629\n1631"
+
+          },
+
+          {
+            "arrival": ["rjns","fsz","静岡"],
+            "flightNumber":"2060"
+
+          },
+
+          {
+            "arrival":["rjaf","mmj","松本"],
+            "flightNumber":"2090"
+
+
+          },
+
+          {
+            "arrival":["rjna","nkm","小牧"],
+            "flightNumber":"2070"
+
+          },
+                
+          {
+            "arrival":["ejsn","kij","新潟"],
+            "flightNumber":"2040"
+
+          },
+
+          {
+            "arrival":["rjnk","kmq","小松"],
+            "flightNumber":"2050"
+
+          },
+
+          {
+            "arrival":["rjoo","itm","伊丹"],
+            "flightNumber":"5100\n5102\n5104\n5106\n5108\n5110\n5112\n5114"
+
+          },
+
+          {
+            "arrival":["rjbe","ukb","神戸"],
+            "flightNumber":"5130\n5132\n5134\n5136\n5138\n5140\n5142\n5144"
+
+          },
+
+          {
+            "arrival":["rjoa","hij","広島"],
+            "flightNumber":"2080"
+
+          },
+                
+          {
+            "arrival":["rjow","iwj","石見"],
+            "flightNumber":"4345"
+
+          },
+
+        {
+          "arrival":["rjfr","kkj","北九州"],
+          "flightNumber":"2100"
+
+
+        },
+
+          {
+            "arrival":["rjff","fuk","福岡"],
+            "flightNumber":"2110\n2112\n2114\n2116"
+
+          },
+
+          {
+            "arrival":["rjfk","koj","鹿児島"],
+            "flightNumber":"2120"
+
+          },
+
+          {
+            "arrival":["roah","oka","那覇"],
+           "flightNumber":"2130\n2132"
+
+          }
+        ]
+    }
