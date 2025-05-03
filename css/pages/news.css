@@ -1,22 +1,36 @@
-.news-container {
-    margin-top: 125px;
-}
 h2 {
     text-align: center;
-    color: black;
-    font-size: 30px; 
-    text-decoration: none;
+    color: #212d5d;
+    text-decoration: underline #6d6d6d;
+    text-decoration-thickness:3px;
 }
 
 h3 {
-    color: black;
-    font-size: 25px;
-    margin-left: 350px;
+    margin-bottom: 25px;
+    margin-left: 17%;
+    font-size: 24px;
+    color: #212d5d;
+}
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    scroll-margin-top: 350px; 
 }
 
-.news-container p {
-    margin-top: 30px;
-    color: black;
-    font-size: 20px;
-    margin-left: 400px;
+
+.container {
+    margin-top: 100px;
+    width: 45%;
+    height: auto;
+}
+ 
+p {
+    margin-bottom: 25px;
+    margin-left: 20%;
+    font-size: 19px;
+    color: #2c2c2c;
+
 }
