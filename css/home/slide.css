@@ -50,8 +50,8 @@
   
   /* ドットボタン */
   .nav-btn {
-    width: 2.5rem;
-    height: 0.25rem;
+    width: 5rem;
+    height: 0.3rem;
     border: none;
     border-radius: 0.3rem;
     background-color: rgb(196, 196, 196);
