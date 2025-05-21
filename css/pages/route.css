@@ -53,3 +53,20 @@ p {
     font-size: 12px;
     color: #b8b8b8;
 }
+
+/* dark mode */
+body.dark-mode p{
+    color: #ffffff;
+}
+
+body.dark-mode h1 {
+    background: #3C7B91;
+}
+
+body.dark-mode h2 {
+    color: #77c3df;
+}
+
+body.dark-mode .point {
+    color: #e4e4e4;
+}

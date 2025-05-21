@@ -87,3 +87,26 @@ p {
     font-size: 13px;
     color: #b8b8b8;
 }
+
+/* dark mode */
+
+/* dark mode */
+body.dark-mode p{
+    color: #ffffff;
+}
+
+body.dark-mode h1 {
+    background: #3C7B91;
+}
+
+body.dark-mode h2 {
+    color: #77c3df;
+}
+
+body.dark-mode .container a {
+    color: rgb(252, 195, 204);
+}
+
+body.dark-mode .point {
+    color: #e4e4e4;
+}
