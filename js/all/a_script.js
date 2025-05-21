@@ -19,6 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // dark mode
 // ロゴ変更
 window.addEventListener("DOMContentLoaded", () => {
+  // URLパスに '/legal/' が含まれていたら処理を中断
+  if (location.pathname.includes("/legal/")) {
+    return;
+  }
+
   const toggle = document.getElementById("modeToggle");
   const logos = document.querySelectorAll('img[data-keyword]');
 
