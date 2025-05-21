@@ -62,9 +62,20 @@
   /* アクティブなドット */
   .nav-btn.active {
     background-color: #212d5d;
+    border-bottom: 3px solid #212d5d;
+    height: 0.3rem;
+    min-height: 0.3rem;
+    line-height: 0;
+    box-sizing: border-box;
+    display: inline-block;
   }
   
   /* darkmode */
   body.dark-mode .slider{
     border: 5px solid #ffffff;
   }
+
+  body.dark-mode .nav-btn.active {
+  background-color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}

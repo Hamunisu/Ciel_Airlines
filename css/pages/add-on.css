@@ -101,6 +101,7 @@ body.dark-mode h1 {
 
 body.dark-mode h2 {
     color: #77c3df;
+    text-decoration: underline #e4e4e4;
 }
 
 body.dark-mode .container a {
@@ -109,4 +110,12 @@ body.dark-mode .container a {
 
 body.dark-mode .point {
     color: #e4e4e4;
+}
+
+body.dark-mode .section-box {
+    border: 8px solid #ffffff;
+}
+
+body.dark-mode .container{
+        border-bottom: 5px solid #ffffff;
 }
