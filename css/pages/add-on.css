@@ -69,12 +69,9 @@ section {
 }
 
 .container a::after {
-      background:#5066e1;
+      background:rgb(228, 117, 136);;
 }
 
-.container a:hover {
-  color: #5066e1;
-}
 p {
     margin-bottom: 35px;
     margin-left: 13%;
@@ -106,6 +103,10 @@ body.dark-mode h2 {
 
 body.dark-mode .container a {
     color: rgb(252, 195, 204);
+}
+
+body.dark-mode .container a::after {
+      background:rgb(228, 117, 136);;
 }
 
 body.dark-mode .point {

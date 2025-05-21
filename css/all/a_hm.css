@@ -148,6 +148,6 @@
               --hover-color: #a7a7a7;
               --underline-color: #a7a7a7;
             }
-            .burger .burger-lines, .burger .burger-lines:after, .burger .burger-lines:before {
-              background-color: white;
+            body.dark-mode .burger .burger-lines, body.dark-mode .burger .burger-lines:after, body.dark-mode .burger .burger-lines:before {
+              background-color: #ffffff;
             }
