@@ -15,7 +15,7 @@ button {
 button.active {
   background-color: white;
   color: black;
-  border-bottom: 3px solid #212d5d;
+  border-bottom: 3px solid #ffffff;
 }
   
 button:hover {
@@ -86,14 +86,13 @@ button:hover {
     text-align: center;
     width: 70%;
     height: 150px;
-    box-shadow: 0 2px 4px #556b6b;
   }
 
   input::placeholder {
   color: #e7e7e7;
   font-size: 25px;
-  
   }
+
   input:focus {
     background-color: white;
     outline: none;
@@ -194,82 +193,99 @@ button:hover {
   }
 
 
-  #aircraft{
-      margin:0 auto;
-      padding: 1%  15%;
-      background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
-      color: #212d5d;
-      border-radius: 45px;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      text-decoration: none;
-      background-color: white;
-      border: 1px solid #212d5d;
-      border-radius: 25px;
-      width: fit-content;
-      display: block;
-  }
-  
-  /* フォーカス時に枠線の色を変更 */
-  #aircraft{
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  /* 機種セレクターのオプション */
-  #aircraft option {
-    padding: 0.5rem;
-    font-size: 1rem;
-    background-color: #f0f0f0;
-  }
-  
-  /* 機種セレクターのホバー時 */
-  #aircraft:hover {
-    background-color: #eef2f7;
-  }
-
-  #i_aircraft{
-    margin:0 auto;
-    padding: 1%  15%;
-    background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
-    color: #212d5d;
-    border-radius: 45px;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    background-color: white;
-    border: 1px solid #212d5d;
-    border-radius: 25px;
-    width: fit-content;
-    display: block;
-}
-
-/* フォーカス時に枠線の色を変更 */
-#i_aircraft{
-  border-color: #007bff;
+.select-aircraft {
+  margin: 0 auto;
+  padding: 1% 15%;
+  background: linear-gradient(135deg, #ffffff, #f8f8f8, #eaeaea);
+  color: #212d5d;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #212d5d;
+  border-radius: 25px;
+  width: fit-content;
+  display: block;
   outline: none;
 }
 
-/* 機種セレクターのオプション */
-#i_aircraft option {
+
+.select-aircraft option {
   padding: 0.5rem;
   font-size: 1rem;
   background-color: #f0f0f0;
 }
 
-/* 機種セレクターのホバー時 */
-#i_aircraft:hover {
+.select-aircraft:hover {
   background-color: #eef2f7;
 }
+
   
   /* レスポンシブデザイン（モバイル対応） */
   @media (max-width: 600px) {
     #aircraft {
-      max-width: 100%;  /* スマホでは最大幅を100%に */
+      max-width: 100%;
     }
     #i_aircraft {
-      max-width: 100%;  /* スマホでは最大幅を100%に */
+      max-width: 100%;
     }
   }
+
+  /* dark mode */
+  body.dark-mode button {
+    background-color: #a7a7a7;
+    color: #ffffff;
+  }
+
+  body.dark-mode .content {
+  background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
+
+  }
+
+  body.dark-mode   input[type="text"] {
+    background-color: #a7a7a7;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+
+  body.dark-mode   input::placeholder {
+  color: #d4d4d4;
+  }
+
+  body.dark-mode   .result {
+    background-color: #585858;
+  }
+body.dark-mode   .result p {
+    color: #ffffff;
+  }
+
+body.dark-mode .search{
+  background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
+  border: 1px solid #ffffff;
+    }
+
+body.dark-mode .search:hover{
+  color: #a7a7a7;
+}
+
+body.dark-mode .select-aircraft{
+  border: 1px solid #ffffff;
+  background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
+}
+
+body.dark-mode .select-aircraft option {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+body.dark-mode .select-aircraft:hover {
+  background-color: #ffffff;
+  color: #2e2e2e;
+}
+
+body.dark-mode .select-aircraft {
+    border: 1px solid #ffffff;
+  background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
+  color: #ffffff;
+}

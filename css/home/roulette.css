@@ -60,17 +60,11 @@
   .r_box h2 {
     color: white;
   }
-  .r_box select {
+    body.dark-mode 
+  .r_box option {
     font-size: 16px;
     padding: 5px;
-    color: #0F2540;
-  }
-
-  .r_box select option {
-    font-size: 16px;
-    padding: 5px;
-    color: white;
-    background-color: #212d5d;
+    color: #212d5d;
   }
 
   #r_result #r_x_result{
@@ -78,4 +72,25 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+  }
+
+  /* dark mode */
+  body.dark-mode .r_box {
+      background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
+  }
+
+    body.dark-mode .r_box:hover {
+    color: #a7a7a7;
+    }
+
+  body.dark-mode .r_box option{
+    color: #ffffff;
+    background-color: #2e2e2e;
+  }
+  body.dark-mode .r_box:hover {
+    color: #2e2e2e;
+    background-color: #ffffff;
+  }
+  body.dark-mode .r_box select {
+    color: #a7a7a7;
   }

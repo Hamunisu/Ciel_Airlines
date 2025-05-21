@@ -44,20 +44,17 @@ h1 {
     padding: 75px;
   }
   
-  /* 最後の項目は下線をつけない */
   .patch-item:last-child {
     border-bottom: none;
   }
 
-    /* 各お知らせ項目（下線のみで区切る） */
     .patch-item-update {
       display: flex;
       align-items: center;
       border-bottom: 2px solid #2B5F75;
       padding: 45px;
     }
-    
-    /* 最後の項目は下線をつけない */
+
     .patch-item-update:last-child {
       border-bottom: none;
     }
@@ -94,4 +91,37 @@ h1 {
     flex: 1;
     word-wrap: break-word;
     color: #212d5d;
+  }
+
+  /* dark mode */
+  body.dark-mode h1 {
+      background: #3C7B91;
+  }
+
+  body.dark-mode h2 {
+    color: #ffffff;
+  }
+
+  body.dark-mode .flight_number{
+    border: 2px solid #ffffff;
+  }
+
+  body.dark-mode .content {
+    flex: 1;
+    word-wrap: break-word;
+    color: #ffffff;
+  }
+    
+  body.dark-mode .date {
+    color: #ffffff;
+  }
+
+  body.dark-mode .patch-item-update {
+    border-bottom: 2px solid #a7a7a7;
+  }
+  body.dark-mode .patch-item {
+    border-bottom: 2px solid #a7a7a7;
+  }
+  body.dark-mode .tag {
+    background-color: 	#66AFC4;
   }

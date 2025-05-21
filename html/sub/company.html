@@ -13,9 +13,9 @@
     
 <!--cssリンク-->
 <link rel="stylesheet" href="https://unpkg.com/ress@5.0.2/dist/ress.min.css">
-<link rel="stylesheet" href="../../css/all/a_pack.css?v=20250521">
-<link rel="stylesheet" href="../../css/all/a_hm.css?v=20250521">
-<link rel="stylesheet" href="../../css/sub/company.css?v=20250521">
+<link rel="stylesheet" href="../../css/all/a_pack.css?v=0.4.3">
+<link rel="stylesheet" href="../../css/all/a_hm.css?v=0.4.3">
+<link rel="stylesheet" href="../../css/sub/company.css?v=0.4.3">
 
 <!--ファビコン-->
 <link rel="icon" type="image/png" href="../../image/fv/favicon-96x96.png" sizes="96x96" />
@@ -45,11 +45,11 @@
 
 <!-- ヘッダー -->
 <header>
-  <a href="../../index.html?v=20250521" class="logo-link">
-      <img src="../../image/ciellogo.png" alt="Logo" draggable="false">
+  <a href="../../index.html?v=0.4.3" class="logo-link">
+      <img id="logo" data-keyword="ciellogo2" src="../../image/ciellogo.png" alt="Logo" draggable="false">
       </a>
     <div class="head-link english japanese">
-      <a href="../../index.html?v=20250521">home</a>
+      <a href="../../index.html?v=0.4.3">home</a>
       <a href="https://dispatch.simbrief.com/briefing/latest" target="_blank" rel="noopener noreferrer">simbrief</a>
       <a href="https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119"target="_blank" rel="noopener noreferrer">ログブック</a>
       <div class="burger burger-slip burger-right">
@@ -64,13 +64,20 @@
     <div class="overlay"></div>
     <div class="menu">
       <div class="menu-item english">
-        <a href="../../index.html?v=20250521">Home</a>
+        <a href="../../index.html?v=0.4.3">Home</a>
       </div>
       <div class="menu-item english">
         <a href="../sub/gallery.html">Gallery</a>
       </div>
       <div class="menu-item english">
-        <a href="../sub/company.html?v=20250521">Company</a>
+        <a href="../sub/company.html?v=0.4.3">Company</a>
+      </div>
+      <!-- ダークモード切替 -->
+      <div class="dark-botton">
+        <label class="switch">
+          <input type="checkbox" id="modeToggle">
+          <span class="d_slider"></span>
+        </label>
       </div>
     </div>
 
@@ -85,6 +92,13 @@
 
 <div class="patch">
      <div class="content english"></div>
+      
+      <!-- 05/22 -->
+       <div class="patch-item">
+        <div class="date">2025/05/22</div>
+        <div class="tag english">更新</div>
+        <div class="content english">v0.4.3　HMから切り替え可能なダークモードを実装しました　軽微な修正</div>
+      </div>
       
       <!-- 05/21 -->
       <div class="patch-item">
@@ -209,16 +223,16 @@
   
   <!-- 5月以降 -->
   <div class="patch-item-update">
-      <div class="date">5月以降予定</div>
+      <div class="date">6月以降予定</div>
       <div class="tag japanese">追加</div>
-      <div class="content japanese">v0.5.0～　リニューアルに伴う問題修正　???開発中　おすすめ路線定期更新</div>
+      <div class="content japanese">v0.5.0～ユーザーインターフェースの充実　アクセシビリティ対応</div>
       </div>    
   
   <!-- 5月分 -->
     <div class="patch-item-update">
         <div class="date">5月の予定</div>
         <div class="tag japanese">修正</div>
-        <div class="content japanese">v0.4.0～　リニューアルに伴う問題修正　おすすめ路線一弾更新</div>
+        <div class="content japanese">v0.4.0～　ナレーター機能対応　ダークモードの色合い調整</div>
       </div>
 
     </div>

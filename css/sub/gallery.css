@@ -13,19 +13,7 @@ h1 {
 
  h2{
     color: #212d5d;
-} 
-
-.flight_number {
-    display: block;
-    width: 80%;
-    margin: 20px auto;
-    padding: 10px;
-    border: 2px solid #212d5d;
-    text-align: center;
-    border-radius: 5px;
-    font-size: 24px;
 }
-
 
 
 /* 写真と紹介文字の配置 */
@@ -67,3 +55,20 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* dark mode */
+  body.dark-mode h1 {
+      background: #3C7B91;
+  }
+
+  body.dark-mode h2 {
+    color: #ffffff;
+  }
+
+  body.dark-mode p {
+    color: #ffffff;
+  }
+
+  body.dark-mode .image-item img {
+    border: 5px solid #ffffff;
+  }

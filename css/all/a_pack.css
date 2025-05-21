@@ -9,6 +9,8 @@ body {
   background-color: rgb(255, 251, 242);
 }
 
+
+
 /* フォント関連 */
 .japanese {
     font-family: "Sawarabi Gothic", sans-serif;
@@ -153,3 +155,90 @@ font-size: 10px;
 color: white;
 }
 /* /フッター関連 */
+
+
+
+/* --------------------dark mode--------------------- */
+
+.dark-botton {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 100px;  /* 幅そのまま */
+  height: 30px;  /* 高さを少し広めに調整 */
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.d_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border: 1px solid #212d5d;
+  border-radius: 34px;
+}
+
+.d_slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 1px;              /* 左端から */
+  top: 1px;               /* 垂直方向中央に近づける */
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .d_slider::before {
+  transform: translateX(70px); /* 100 - 26（丸の幅） - 2*padding */
+}
+
+input:checked + .d_slider {
+  background-color: rgb(51, 51, 51);
+}
+
+
+/* ダークモード内容 */
+body.dark-mode {
+  --bg-color: #242936;
+  --text-color: #ffffff;
+  --link-color: #ffffff;
+  --hover-color: #a7a7a7;
+  --underline-color: #a7a7a7;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body.dark-mode .d_slider {
+  border:  1px solid white;
+}
+
+body.dark-mode header {
+background: linear-gradient(to bottom, #5a5a5a, #4a4a4a, #3a3a3a);
+
+}
+
+body.dark-mode footer {
+  background: #000000;
+}
+
+body.dark-mode img {
+  filter: brightness(70%);
+}
+
+body.dark-mode .logo-link img {
+  filter: brightness(100%);
+}
