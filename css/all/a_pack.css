@@ -168,6 +168,10 @@ color: white;
   transform: translateX(-50%);
 }
 
+.dark-botton p {
+  color: #000000;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -223,13 +227,16 @@ body.dark-mode {
   color: var(--text-color);
 }
 
+body.dark-mode .dark-botton p {
+  color: #ffffff;
+}
+
 body.dark-mode .d_slider {
   border:  1px solid white;
 }
 
 body.dark-mode header {
-background: linear-gradient(to bottom, #5a5a5a, #4a4a4a, #3a3a3a);
-
+  background: linear-gradient(to bottom, #5a5a5a, #4a4a4a, #3a3a3a);
 }
 
 body.dark-mode footer {

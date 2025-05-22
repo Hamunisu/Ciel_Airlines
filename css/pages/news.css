@@ -32,5 +32,15 @@ p {
     margin-left: 20%;
     font-size: 19px;
     color: #2c2c2c;
+}
 
+body.dark-mode h2, h3, p{
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #a7a7a7;
+}
+body.dark-mode a:hover{
+color: #ffffff;
 }

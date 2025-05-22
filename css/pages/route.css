@@ -8,7 +8,7 @@ h1 {
     padding: 0.5em;
     background: #8AA9B6;
     border-left: solid 10px #212d5d;
-  }
+}
     
 h2 {
     margin-left: 9%;
@@ -73,5 +73,5 @@ body.dark-mode .point {
 }
 
 body.dark-mode .container{
-        border-bottom: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
 }

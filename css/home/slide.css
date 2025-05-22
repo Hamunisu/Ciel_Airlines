@@ -33,49 +33,43 @@
   height: 100%;
   object-fit: cover;
 }
-
-
-
-
-
   
+/* 下部ナビゲーションの配置 */
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
   
-  /* 下部ナビゲーションの配置 */
-  .navigation {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
+/* ドットボタン */
+.nav-btn {
+  width: 5rem;
+  height: 0.3rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: rgb(196, 196, 196);
+  cursor: pointer;
+  padding: 0;
+}
   
-  /* ドットボタン */
-  .nav-btn {
-    width: 5rem;
-    height: 0.3rem;
-    border: none;
-    border-radius: 0.3rem;
-    background-color: rgb(196, 196, 196);
-    cursor: pointer;
-    padding: 0;
-  }
+/* アクティブなドット */
+.nav-btn.active {
+  background-color: #212d5d;
+  border-bottom: 3px solid #212d5d;
+  height: 0.3rem;
+  min-height: 0.3rem;
+  line-height: 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
   
-  /* アクティブなドット */
-  .nav-btn.active {
-    background-color: #212d5d;
-    border-bottom: 3px solid #212d5d;
-    height: 0.3rem;
-    min-height: 0.3rem;
-    line-height: 0;
-    box-sizing: border-box;
-    display: inline-block;
-  }
-  
-  /* darkmode */
-  body.dark-mode .slider{
-    border: 5px solid #ffffff;
-  }
+/* darkmode */
+body.dark-mode .slider{
+  border: 5px solid #ffffff;
+}
 
-  body.dark-mode .nav-btn.active {
+body.dark-mode .nav-btn.active {
   background-color: #ffffff;
   border-bottom: 3px solid #ffffff;
 }
