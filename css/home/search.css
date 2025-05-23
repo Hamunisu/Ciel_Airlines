@@ -126,6 +126,7 @@ input::placeholder {
   margin-top: 10px;
   margin-bottom: 10px;
   text-decoration: none;
+  text-align: center;
   background-color: white;
   border: 1px solid #212d5d;
   border-radius: 25px;

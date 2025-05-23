@@ -51,7 +51,21 @@
   flex-direction: column; 
 }
 
+.r_box option {
+  font-size: 16px;
+  padding: 5px;
+  color: #2e2e2e;
+}
+
 #r_select {
+  color: #fff;
+}
+
+#r_select:hover {
+  color: #6d6d6d;
+}
+
+#r_x_select {
   color: #fff;
 }
 
@@ -114,7 +128,7 @@ body.dark-mode .r_box select {
 
   .r_box {
     margin-left: 13%;
-    width: 100%;
+    width: 87%;
     max-width: 750px;
     padding: 45px;
   }

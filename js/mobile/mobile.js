@@ -108,7 +108,6 @@ window.addEventListener('resize', switchHomeIcon);
 })();
 
 
-// ログブックリンク切り替え
 window.addEventListener("DOMContentLoaded", () => {
   const link = document.querySelector(
     'a[href="https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119"]'
@@ -116,9 +115,10 @@ window.addEventListener("DOMContentLoaded", () => {
   if (!link) return;
 
   // ベースパス判定
-  const basePath = location.pathname.endsWith("index.html") || location.pathname === "/"
-    ? "image/"
-    : "../../image/";
+  const basePath =
+    location.pathname === "/" || location.pathname.endsWith("index.html")
+      ? "image/"
+      : "../../image/";
 
   function isMobile() {
     return window.matchMedia("(max-width: 767px)").matches;
@@ -129,7 +129,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (!link.querySelector("img")) {
         link.textContent = "";
         const img = document.createElement("img");
-        img.src = basePath + "google.png";  // ← ../../image/ も自動対応
+        img.src = basePath + "google.png";
         img.alt = "ログブック";
         img.style.height = "24px";
         link.appendChild(img);
