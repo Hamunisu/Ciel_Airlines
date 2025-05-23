@@ -150,13 +150,13 @@ transition: .2s all;
   display: block;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .menu-item {
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-}
+} */
 
 /* ----------dark mode---------- */
 body.dark-mode .menu {
