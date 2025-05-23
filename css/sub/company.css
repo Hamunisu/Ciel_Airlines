@@ -167,6 +167,17 @@ body.dark-mode .tag {
     margin-left: 13%;
     width: 85%;
   }
+
+  .patch-fix {
+  margin-left: 13%;
+    width: 85%;
+  }
+
+  .patch-item-fix{
+    flex-direction: column;
+    align-items: center;
+  }
+
   .patch {
     margin-left: 13%;
     width: 85%;
