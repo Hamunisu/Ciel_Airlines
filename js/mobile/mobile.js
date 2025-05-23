@@ -28,18 +28,13 @@ window.addEventListener('DOMContentLoaded', switchHomeIcon);
 window.addEventListener('resize', switchHomeIcon);
 
 
-// simbrief
-// simbrief画像パスをページの場所によって切り替える
 (() => {
-  // ベースパス判定
+  // ベースパス判定：URLに /html/ が含まれる場合はサブディレクトリ、
+  // それ以外（ルート直下）は image/ を返す
   function getBasePath() {
-    const path = location.pathname;
-    // ルートが / または /index.html のとき image/
-    if (path === "/" || path === "/index.html") {
-      return "image/";
-    }
-    // それ以外は ../../image/
-    return "../../image/";
+    return location.pathname.includes("/html/")
+      ? "../../image/"
+      : "image/";
   }
 
   // モバイル判定
@@ -54,35 +49,28 @@ window.addEventListener('resize', switchHomeIcon);
     return stored === "true" || (stored === null && prefers);
   }
 
-  // simbriefリンクと画像パス設定
-  const simbriefHref = "https://dispatch.simbrief.com/briefing/latest";
-  function getSimbriefImages() {
-    const base = getBasePath();
-    return {
-      light: base + "simbrief.png",
-      dark: base + "simbrief-dark.png"
-    };
-  }
+  // 各リンクの href
+  const LINKS = {
+    simbrief: "https://dispatch.simbrief.com/briefing/latest",
+    logbook:  "https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119"
+  };
 
-  // ログブックリンクと画像パス
-  const logbookHref = "https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119";
-  function getLogbookImage() {
+  // 画像パス getter
+  function getSimbriefSrc() {
+    const base = getBasePath();
+    return isDarkMode()
+      ? base + "simbrief-dark.png"
+      : base + "simbrief.png";
+  }
+  function getLogbookSrc() {
     return getBasePath() + "google.png";
   }
 
-  // リンク要素取得関数
-  function getLink(href) {
-    return document.querySelector(`a[href="${href}"]`);
-  }
-
-  // 画像表示関数
-  function setIcon(link, src, alt = "") {
+  // 画像化／テキスト化共通処理
+  function setIcon(link, src, alt) {
     const img = link.querySelector("img");
     if (img) {
-      // srcが違ったら切り替え
-      if (!img.src.includes(src)) {
-        img.src = src;
-      }
+      if (!img.src.includes(src)) img.src = src;
     } else {
       link.textContent = "";
       const e = document.createElement("img");
@@ -92,48 +80,33 @@ window.addEventListener('resize', switchHomeIcon);
       link.appendChild(e);
     }
   }
-
-  // テキスト表示関数
   function setText(link, text) {
     if (link.querySelector("img")) {
       link.textContent = text;
     }
   }
 
-  // simbriefリンクの更新処理
-  function updateSimbrief() {
-    const link = getLink(simbriefHref);
+  // 更新処理
+  function updateLink(href, getSrc, text, alt) {
+    const link = document.querySelector(`a[href="${href}"]`);
     if (!link) return;
     if (isMobile()) {
-      const imgs = getSimbriefImages();
-      const src = isDarkMode() ? imgs.dark : imgs.light;
-      setIcon(link, src, "Simbrief");
+      setIcon(link, getSrc(), alt);
     } else {
-      setText(link, "simbrief");
+      setText(link, text);
     }
   }
 
-  // ログブックリンクの更新処理
-  function updateLogbook() {
-    const link = getLink(logbookHref);
-    if (!link) return;
-    if (isMobile()) {
-      setIcon(link, getLogbookImage(), "ログブック");
-    } else {
-      setText(link, "ログブック");
-    }
-  }
-
-  // すべて更新
+  // 全体更新
   function updateAll() {
-    updateSimbrief();
-    updateLogbook();
+    updateLink(LINKS.simbrief, getSimbriefSrc, "simbrief", "Simbrief");
+    updateLink(LINKS.logbook,  getLogbookSrc,  "ログブック", "ログブック");
   }
 
   window.addEventListener("DOMContentLoaded", updateAll);
-  window.addEventListener("resize", updateAll);
+  window.addEventListener("resize",        updateAll);
 
-  // ダークモード切替トグルの監視
+  // ダークモードトグル反映
   const toggle = document.getElementById("modeToggle");
   if (toggle) {
     toggle.addEventListener("change", () => {
