@@ -105,3 +105,11 @@
         transform: rotate( 360deg );
       }
     }
+
+    body.dark-mode #loading-overlay {
+    background-color: rgba(59, 59, 59, 0.9);
+    }
+
+    body.dark-mode     .fingerprint-spinner .spinner-ring {
+      border-top-color: #fff;
+    }

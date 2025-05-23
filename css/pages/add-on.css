@@ -13,8 +13,6 @@ h1 {
 h2 {
     margin-left: 9%;
     color: #212d5d;
-    text-decoration: underline #6d6d6d;
-    text-decoration-thickness:3px;
 }
 
 section {
@@ -77,7 +75,6 @@ p {
     margin-left: 13%;
     font-size: 19px;
     color: #2c2c2c;
-
 }
 
 .point {
@@ -97,7 +94,6 @@ body.dark-mode h1 {
 
 body.dark-mode h2 {
     color: #77c3df;
-    text-decoration: underline #e4e4e4;
 }
 
 body.dark-mode .container a {
@@ -118,4 +114,36 @@ body.dark-mode .section-box {
 
 body.dark-mode .container{
     border-bottom: 5px solid #ffffff;
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        margin-left: 13%;
+        width: 86%;
+        font-size: 35px;
+    }
+    h2 {
+    font-size: 24px;
+    margin-left: 0;
+    }
+    
+    .section-box {
+        margin-left: 13%;
+        width: 86%;
+    }
+
+    .container {
+        margin-left: 13%;
+        width: 65%;
+    }
+
+    .container a {
+        margin-left: 10%;
+    }
+
+    p {
+    margin-bottom: 35px;
+    font-size: 19px;
+}
 }

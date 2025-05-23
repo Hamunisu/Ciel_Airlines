@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // dark mode
 // ロゴ変更
 window.addEventListener("DOMContentLoaded", () => {
-  // URLパスに '/legal/' が含まれていたら処理を中断
   if (location.pathname.includes("/legal/")) {
     return;
   }
@@ -31,16 +30,23 @@ window.addEventListener("DOMContentLoaded", () => {
     ciellogo1: {
       light: 'image/ciellogo.png',
       dark: 'image/ciellogo-dark.png',
+      mobile: 'image/fluer.png',
     },
     ciellogo2: {
       light: '../../image/ciellogo.png',
       dark: '../../image/ciellogo-dark.png',
+      mobile: '../../image/fluer.png',
     },
   };
 
   const storedMode = localStorage.getItem("darkMode");
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const isDarkMode = storedMode === "true" || (storedMode === null && prefersDark);
+  let isDarkMode = storedMode === "true" || (storedMode === null && prefersDark);
+
+  // isMobile を動的に取得する関数
+  function isMobile() {
+    return window.matchMedia("(max-width: 767px)").matches;
+  }
 
   function applyMode(dark) {
     document.body.classList.toggle("dark-mode", dark);
@@ -49,7 +55,13 @@ window.addEventListener("DOMContentLoaded", () => {
     logos.forEach(img => {
       const key = img.dataset.keyword;
       const paths = imageMap[key];
-      if (paths) img.src = dark ? paths.dark : paths.light;
+      if (!paths) return;
+
+      if (isMobile()) {
+        img.src = paths.mobile || (dark ? paths.dark : paths.light);
+      } else {
+        img.src = dark ? paths.dark : paths.light;
+      }
     });
   }
 
@@ -57,9 +69,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   if (toggle) {
     toggle.addEventListener("change", () => {
-      const isDark = toggle.checked;
-      localStorage.setItem("darkMode", isDark.toString());
-      applyMode(isDark);
+      isDarkMode = toggle.checked;
+      localStorage.setItem("darkMode", isDarkMode.toString());
+      applyMode(isDarkMode);
     });
   }
+
+  // ウィンドウサイズ変更時に画像切り替えを再適用
+  window.addEventListener('resize', () => {
+    applyMode(isDarkMode);
+  });
 });

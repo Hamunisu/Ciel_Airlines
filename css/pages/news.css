@@ -1,8 +1,6 @@
 h2 {
     text-align: center;
     color: #212d5d;
-    text-decoration: underline #6d6d6d;
-    text-decoration-thickness:3px;
 }
 
 h3 {
@@ -27,14 +25,21 @@ h3 {
     height: auto;
 }
  
-p {
+    .container p {
     margin-bottom: 25px;
     margin-left: 20%;
     font-size: 19px;
-    color: #2c2c2c;
 }
 
-body.dark-mode h2, h3, p{
+body.dark-mode h2 {
+    color: #77c3df;
+}
+
+body.dark-mode h3 {
+    color: #ffffff;
+}
+
+body.dark-mode p {
     color: #ffffff;
 }
 
@@ -43,4 +48,10 @@ body.dark-mode a {
 }
 body.dark-mode a:hover{
 color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 65%;
+    }
 }

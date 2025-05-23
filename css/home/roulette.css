@@ -32,10 +32,10 @@
 .r_container {
   display: flex;
   width: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  border-radius: 8px;    
+  text-align: center; 
 }
 
 .r_box{
@@ -50,7 +50,15 @@
   box-shadow: 0 4px 6px #4d4d4d;
   flex-direction: column; 
 }
-  
+
+#r_select {
+  color: #fff;
+}
+
+#r_select:hover {
+  color: #6d6d6d;
+}
+   
 h3 {
   font-size: 20px;
   text-align: center;
@@ -67,7 +75,7 @@ body.dark-mode .r_box option {
   color: #212d5d;
 }
 
-#r_result #r_x_result{
+#r_result, #r_x_result{
   margin-top: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -95,4 +103,19 @@ body.dark-mode .r_box:hover {
 
 body.dark-mode .r_box select {
   color: #a7a7a7;
+}
+
+@media (max-width: 767px) {
+  .switcher {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 13%;
+  }
+
+  .r_box {
+    margin-left: 13%;
+    width: 100%;
+    max-width: 750px;
+    padding: 45px;
+  }
 }

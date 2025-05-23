@@ -73,3 +73,14 @@ body.dark-mode .nav-btn.active {
   background-color: #ffffff;
   border-bottom: 3px solid #ffffff;
 }
+
+@media (max-width: 767px) {
+  .slider {
+    margin-left: 16%;
+    width: 82%;
+  }
+
+  .navigation {
+    margin-left: 16%;
+  }
+}
