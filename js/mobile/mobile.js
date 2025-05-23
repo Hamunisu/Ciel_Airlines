@@ -30,117 +30,115 @@ window.addEventListener('resize', switchHomeIcon);
 
 // simbrief
 // simbrief画像パスをページの場所によって切り替える
-(function() {
-  const simbriefHref = "https://dispatch.simbrief.com/briefing/latest";
-
+(() => {
   // ベースパス判定
   function getBasePath() {
-    return location.pathname.endsWith("index.html") || location.pathname === "/"
-      ? "image/"
-      : "../../image/";
+    const path = location.pathname;
+    // ルートが / または /index.html のとき image/
+    if (path === "/" || path === "/index.html") {
+      return "image/";
+    }
+    // それ以外は ../../image/
+    return "../../image/";
   }
+
+  // モバイル判定
+  function isMobile() {
+    return window.matchMedia("(max-width: 767px)").matches;
+  }
+
   // ダークモード判定
   function isDarkMode() {
     const stored = localStorage.getItem("darkMode");
     const prefers = window.matchMedia("(prefers-color-scheme: dark)").matches;
     return stored === "true" || (stored === null && prefers);
   }
-  // モバイル判定
-  function isMobile() {
-    return window.innerWidth <= 767;
-  }
 
-  // simbrief用画像マップ
-  function getSimbriefMap() {
+  // simbriefリンクと画像パス設定
+  const simbriefHref = "https://dispatch.simbrief.com/briefing/latest";
+  function getSimbriefImages() {
     const base = getBasePath();
     return {
-      mobileLight: base + "simbrief.png",
-      mobileDark:  base + "simbrief-dark.png"
+      light: base + "simbrief.png",
+      dark: base + "simbrief-dark.png"
     };
   }
 
-  // 要素取得
-  function getLink() {
-    return document.querySelector(`a[href="${simbriefHref}"]`);
+  // ログブックリンクと画像パス
+  const logbookHref = "https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119";
+  function getLogbookImage() {
+    return getBasePath() + "google.png";
   }
 
-  // アイコン化
-  function toIcon(link) {
-    const map = getSimbriefMap();
-    const src = isDarkMode() ? map.mobileDark : map.mobileLight;
+  // リンク要素取得関数
+  function getLink(href) {
+    return document.querySelector(`a[href="${href}"]`);
+  }
+
+  // 画像表示関数
+  function setIcon(link, src, alt = "") {
     const img = link.querySelector("img");
     if (img) {
-      if (!img.src.includes(src)) img.src = src;
+      // srcが違ったら切り替え
+      if (!img.src.includes(src)) {
+        img.src = src;
+      }
     } else {
       link.textContent = "";
       const e = document.createElement("img");
       e.src = src;
-      e.alt = "Simbrief";
+      e.alt = alt;
       e.style.height = "24px";
       link.appendChild(e);
     }
   }
 
-  // テキスト化
-  function toText(link) {
+  // テキスト表示関数
+  function setText(link, text) {
     if (link.querySelector("img")) {
-      link.textContent = "simbrief";
+      link.textContent = text;
     }
   }
 
-  // 更新処理
-  function update() {
-    const link = getLink();
+  // simbriefリンクの更新処理
+  function updateSimbrief() {
+    const link = getLink(simbriefHref);
     if (!link) return;
-    if (isMobile()) toIcon(link);
-    else           toText(link);
-  }
-
-  window.addEventListener("DOMContentLoaded", update);
-  window.addEventListener("resize",        update);
-
-  // ダークモード切替があれば
-  const toggle = document.getElementById("modeToggle");
-  if (toggle) toggle.addEventListener("change", () => {
-    localStorage.setItem("darkMode", toggle.checked);
-    update();
-  });
-})();
-
-
-window.addEventListener("DOMContentLoaded", () => {
-  const link = document.querySelector(
-    'a[href="https://docs.google.com/spreadsheets/d/1XCRbloUrsoi-QF936vX9XomI4-PYUnRdxw0KImmjXLI/edit?gid=479897119#gid=479897119"]'
-  );
-  if (!link) return;
-
-  // ベースパス判定
-  const basePath =
-    location.pathname === "/" || location.pathname.endsWith("index.html")
-      ? "image/"
-      : "../../image/";
-
-  function isMobile() {
-    return window.matchMedia("(max-width: 767px)").matches;
-  }
-
-  function update() {
     if (isMobile()) {
-      if (!link.querySelector("img")) {
-        link.textContent = "";
-        const img = document.createElement("img");
-        img.src = basePath + "google.png";
-        img.alt = "ログブック";
-        img.style.height = "24px";
-        link.appendChild(img);
-      }
+      const imgs = getSimbriefImages();
+      const src = isDarkMode() ? imgs.dark : imgs.light;
+      setIcon(link, src, "Simbrief");
     } else {
-      if (link.querySelector("img")) {
-        link.textContent = "ログブック";
-      }
+      setText(link, "simbrief");
     }
   }
 
-  update();
-  window.addEventListener("resize", update);
-});
+  // ログブックリンクの更新処理
+  function updateLogbook() {
+    const link = getLink(logbookHref);
+    if (!link) return;
+    if (isMobile()) {
+      setIcon(link, getLogbookImage(), "ログブック");
+    } else {
+      setText(link, "ログブック");
+    }
+  }
+
+  // すべて更新
+  function updateAll() {
+    updateSimbrief();
+    updateLogbook();
+  }
+
+  window.addEventListener("DOMContentLoaded", updateAll);
+  window.addEventListener("resize", updateAll);
+
+  // ダークモード切替トグルの監視
+  const toggle = document.getElementById("modeToggle");
+  if (toggle) {
+    toggle.addEventListener("change", () => {
+      localStorage.setItem("darkMode", toggle.checked);
+      updateAll();
+    });
+  }
+})();
