@@ -50,7 +50,7 @@ body.dark-mode a:hover{
 color: #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
     .container {
         width: 65%;
     }

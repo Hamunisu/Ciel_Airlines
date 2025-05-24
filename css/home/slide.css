@@ -74,7 +74,7 @@ body.dark-mode .nav-btn.active {
   border-bottom: 3px solid #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   .slider {
     margin-left: 16%;
     width: 82%;

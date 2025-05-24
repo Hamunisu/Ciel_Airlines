@@ -8,7 +8,7 @@ function switchHomeIcon() {
   const targetLink = homeLinks[targetIndex];
   const originalText = 'home'; // 元のテキスト
 
-  if (window.innerWidth <= 767) {
+  if (window.innerWidth <= 984) {
     // スマホ時：テキストをアイコンに置き換え
     if (!targetLink.querySelector('.dli-home')) {
       targetLink.innerHTML = '';
@@ -39,7 +39,7 @@ window.addEventListener('resize', switchHomeIcon);
 
   // モバイル判定
   function isMobile() {
-    return window.matchMedia("(max-width: 767px)").matches;
+    return window.matchMedia("(max-width: 984px)").matches;
   }
 
   // ダークモード判定

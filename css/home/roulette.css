@@ -119,7 +119,7 @@ body.dark-mode .r_box select {
   color: #a7a7a7;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   .switcher {
     margin-top: 100px;
     margin-bottom: 20px;

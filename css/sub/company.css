@@ -157,7 +157,7 @@ body.dark-mode .tag {
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   h1{
     margin-left: 13%;
     font-size: 35px;

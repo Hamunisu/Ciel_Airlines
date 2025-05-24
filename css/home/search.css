@@ -300,7 +300,7 @@ body.dark-mode button.active {
   border-bottom: 3px solid #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   button {
       padding: 15px 60px;
   }

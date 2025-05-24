@@ -37,7 +37,7 @@ header {
     width: 100%;
     height: 75px;
     background: linear-gradient(to bottom, #ffffff, #e0e0e0, #c0c0c0);
-    padding: 0 180px;
+    padding: 0 10%;
     box-shadow: 0 10px 15px #6d6d6d;
     z-index: 3;
 }
@@ -260,7 +260,7 @@ body.dark-mode .head-link img {
 
 
 /* スマホモード */
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   html, body {
     margin: 0;
     padding: 0;
@@ -288,8 +288,8 @@ body.dark-mode .head-link img {
 
   .head-link {
     flex-direction: column;
-    gap: 100px;
-    margin-bottom: 100px;
+    gap: 150px;
+    margin-top: 0;
     margin-left: -1px;
   }
 

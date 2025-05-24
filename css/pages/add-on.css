@@ -117,7 +117,7 @@ body.dark-mode .container{
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
     h1 {
         margin-left: 13%;
         width: 86%;

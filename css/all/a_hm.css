@@ -150,16 +150,20 @@ transition: .2s all;
   display: block;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
 
   .menu {
       margin-top: 0;
       min-height: 100%
   }
+  .burger {
+    margin-bottom: 100px;
+  }
 
   .burger .burger-lines,.burger .burger-lines:after, .burger .burger-lines:before {
-  margin-left: 5px;
-}
+    display: block;
+    margin-left: 5px;
+  }
 
 }
 

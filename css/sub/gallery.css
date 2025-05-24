@@ -71,7 +71,7 @@ body.dark-mode .image-item img {
   border: 5px solid #ffffff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 984px) {
   h1 {
     margin-left: 13%;
     width: 87%;
