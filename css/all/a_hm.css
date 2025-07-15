@@ -178,5 +178,4 @@ body.dark-mode .menu {
 }
 body.dark-mode .burger .burger-lines, body.dark-mode .burger .burger-lines:after, body.dark-mode .burger .burger-lines:before {
   background-color: #ffffff;
-  margin-left: 5px;
 }
