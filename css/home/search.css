@@ -327,13 +327,17 @@ body.dark-mode button.active {
 
   .search{
     width: 85%;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
   }
 
   .select-aircraft {
     width: 95%;
     text-align: center;
     margin-bottom: 25px;
+  }
+
+  .select-aircraft option{
+    text-align: center;
   }
 
   .swap-icon {

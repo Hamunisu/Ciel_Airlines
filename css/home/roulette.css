@@ -135,4 +135,21 @@ body.dark-mode .r_box select {
     max-width: 750px;
     padding: 45px;
   }
+
+  .r_box h2 {
+    color: white;
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+  }
+
+  #r_result, #r_x_result{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
 }
