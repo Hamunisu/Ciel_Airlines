@@ -12,6 +12,7 @@ body {
 
 
 /* フォント関連 */
+
 .japanese {
     font-family: "Sawarabi Gothic", sans-serif;
     font-style: italic;
@@ -64,7 +65,6 @@ header {
 }
 
 /* /ヘッダー関連 */
-
 
 /* Aタグ関連 */
 
@@ -121,6 +121,7 @@ a:hover::after {
 /* /Aタグ関連 */
 
 /* フッター関連 */
+
 footer {
   margin-top: 100px;
   background: #ababab;
@@ -155,9 +156,8 @@ text-align: center;
 font-size: 10px;
 color: white;
 }
+
 /* /フッター関連 */
-
-
 
 /* --------------------dark mode--------------------- */
 
@@ -215,9 +215,8 @@ input:checked + .d_slider {
   background-color: rgb(51, 51, 51);
 }
 
-
-
 /* ダークモード内容 */
+
 body.dark-mode {
   --bg-color: #242936;
   --text-color: #ffffff;
@@ -259,7 +258,9 @@ body.dark-mode .head-link img {
 
 
 
+
 /* スマホモード */
+
 @media (max-width: 984px) {
   html, body {
     margin: 0;
@@ -270,38 +271,36 @@ body.dark-mode .head-link img {
   }
 
   header {
-    top: 0;
-    left: 0;
-    width: 13%;
-    height: 100%;
-    flex-direction: column;
+    display: flex;
     position: fixed;
-    padding: 0;
+    top:  unset;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(to bottom, #ffffff, #e0e0e0, #c0c0c0);
+    padding: 0 10%;
+    box-shadow: 0 10px 15px #6d6d6d;
+    z-index: 3;
   }
 
+  .head-link a {
+  font-size: 20px;
+  margin: 0 5px;
+}
+
   .logo-link img {
-    margin-top: 20px;
-    height: 45px;
     cursor: pointer;
   }
 
-
-  .head-link {
-    flex-direction: column;
-    gap: 150px;
-    margin-top: 0;
-    margin-left: -1px;
-  }
-
   .header-back {
-    width: 13%;
-    height: 100%;
-    top: 0;
+    width: 100%;
+    height: 15%;
+    bottom: 0;
     left: 0;
-  }
-
-  footer {
-    margin-left: 13%;
   }
 }
 

@@ -117,33 +117,29 @@ body.dark-mode .container{
 }
 
 
+
+
+
 @media (max-width: 984px) {
     h1 {
-        margin-left: 13%;
         width: 86%;
         font-size: 35px;
     }
     h2 {
-    font-size: 24px;
-    margin-left: 0;
+        font-size: 24px;
+        margin-left: 0;
     }
     
     .section-box {
-        margin-left: 13%;
         width: 86%;
     }
 
     .container {
-        margin-left: 13%;
         width: 65%;
     }
 
-    .container a {
-        margin-left: 10%;
-    }
-
     p {
-    margin-bottom: 35px;
-    font-size: 19px;
-}
+        margin-bottom: 35px;
+        font-size: 19px;
+    }
 }

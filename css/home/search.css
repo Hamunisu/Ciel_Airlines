@@ -1,4 +1,5 @@
 /* 国内/外切り替えボタン */
+
 button {
   padding: 15px 100px;
   margin: 0 1px;
@@ -60,6 +61,7 @@ opacity: 1;
 
 
 /* 国内線/国際線文字 */
+
 h2 {
   font-size: 25px;
   text-align: center;
@@ -72,6 +74,7 @@ p {
   font-size: 22px;
   text-align: center;
 }
+
 .box {
   display: flex;
   margin-top: 45px;
@@ -82,6 +85,7 @@ p {
 }
 
 /* 検索BOX */
+
 input[type="text"] {
   padding: 10px;
   background-color: white;
@@ -98,10 +102,11 @@ input::placeholder {
   color: #e7e7e7;
   font-size: 25px;
 }
-  input:focus {
-    background-color: white;
-    outline: none;
-  }
+
+input:focus {
+  background-color: white;
+  outline: none;
+}
 
 #internationalSwapButton,#domesticSwapButton{
   background-color: transparent;
@@ -114,7 +119,6 @@ input::placeholder {
 .swap-icon {
   width: 25%;
 }
-  
 
 .search{
   margin:0 auto;
@@ -174,8 +178,7 @@ input::placeholder {
   color: #212d5d;
   text-align: center;
 }
-  
- 
+
 .simbrief-link{
   padding: 1%  8%;
   display: inline-block;
@@ -201,7 +204,6 @@ a.simbrief-link::after{
   all: unset;
 }
 
-
 .select-aircraft {
   margin: 0 auto;
   padding: 1% 15%;
@@ -220,7 +222,6 @@ a.simbrief-link::after{
   transition: transform 0.2s ease;
 }
 
-
 .select-aircraft option {
   padding: 0.5rem;
   font-size: 1rem;
@@ -234,6 +235,7 @@ a.simbrief-link::after{
 
 
 /* dark mode */
+
 body.dark-mode button {
   background-color: #a7a7a7;
   color: #ffffff;
@@ -261,6 +263,7 @@ body.dark-mode   input::placeholder {
 body.dark-mode   .result {
   background-color: #585858;
 }
+
 body.dark-mode   .result p {
   color: #ffffff;
 }
@@ -295,10 +298,13 @@ body.dark-mode .select-aircraft:hover {
   color: #a7a7a7;
 }
 
-
 body.dark-mode button.active {
   border-bottom: 3px solid #ffffff;
 }
+
+
+
+
 
 @media (max-width: 984px) {
   button {
@@ -308,7 +314,6 @@ body.dark-mode button.active {
   .content {
     width: 85%;
     height: auto;
-    margin-left: 14%;
   }
 
   .box {
@@ -332,7 +337,7 @@ body.dark-mode button.active {
   }
 
   .swap-icon {
-    transform: rotate(90deg); /* 180度回転 */
+    transform: rotate(90deg);
     width: 17%;
   }
 

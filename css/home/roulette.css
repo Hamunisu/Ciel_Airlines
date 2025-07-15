@@ -96,7 +96,8 @@ body.dark-mode .r_box option {
   color: white;
 }
 
-  /* dark mode */
+/* dark mode */
+
 body.dark-mode .r_box {
   background: linear-gradient(135deg, #444444, #383838, #2e2e2e);
 }
@@ -119,15 +120,17 @@ body.dark-mode .r_box select {
   color: #a7a7a7;
 }
 
+
+
+
+
 @media (max-width: 984px) {
   .switcher {
     margin-top: 100px;
     margin-bottom: 20px;
-    margin-left: 13%;
   }
 
   .r_box {
-    margin-left: 13%;
     width: 87%;
     max-width: 750px;
     padding: 45px;

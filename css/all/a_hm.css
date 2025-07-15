@@ -1,13 +1,13 @@
 .burger {
-height: 3em;
-width: 3em;
-position: relative;
-font-size: 12px;
-cursor: pointer;
--webkit-transition: .2s all;
--o-transition: .2s all;
-transition: .2s all;
--webkit-tap-highlight-color: transparent; 
+  height: 3em;
+  width: 3em;
+  position: relative;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+  -webkit-tap-highlight-color: transparent; 
 }
 
 .burger .burger-lines:after {
@@ -34,6 +34,7 @@ transition: .2s all;
   top: 50%;
   margin-top: -0.125em; 
 }
+
 .burger .burger-lines, .burger .burger-lines:after, .burger .burger-lines:before {
   pointer-events: none;
   display: block;
@@ -93,6 +94,7 @@ transition: .2s all;
 }
 
 /* menu */
+
 .menu {
   position: fixed;
   margin-top: 75px;
@@ -120,7 +122,7 @@ transition: .2s all;
 .menu.open {
   transform: translateX(0);
 }
-            
+
 .menu-item {
   display: block;
   margin-right: 5%;
@@ -128,12 +130,11 @@ transition: .2s all;
   font-size: 22px;
   transition: 0.4s;
 }
-            
+
 .menu a {
   text-align: center;
   text-decoration: none;
 }
-            
 
 .overlay {
   position: fixed;
@@ -150,19 +151,20 @@ transition: .2s all;
   display: block;
 }
 
+
+
+
+
 @media (max-width: 984px) {
 
   .menu {
-      margin-top: 0;
-      min-height: 100%
-  }
-  .burger {
-    margin-bottom: 100px;
+    position: fixed;
+    margin-top: 0;
+    bottom: 75px;
   }
 
   .burger .burger-lines,.burger .burger-lines:after, .burger .burger-lines:before {
     display: block;
-    margin-left: 5px;
   }
 
 }

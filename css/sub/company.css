@@ -157,34 +157,35 @@ body.dark-mode .tag {
 }
 
 
+
+
+
 @media (max-width: 984px) {
   h1{
-    margin-left: 13%;
     font-size: 35px;
   }
   .flight_number {
     text-align: center;
-    margin-left: 13%;
     width: 85%;
   }
 
   .patch-fix {
-  margin-left: 13%;
     width: 85%;
   }
 
   .patch-item-fix{
     flex-direction: column;
+    padding: 35px;
     align-items: center;
   }
 
   .patch {
-    margin-left: 13%;
     width: 85%;
   }
 
   .patch-item {
     flex-direction: column;
+    padding: 35px;
     align-items: center;
   }
 
@@ -194,6 +195,7 @@ body.dark-mode .tag {
 
   .patch-item-update {
     flex-direction: column;
+    padding: 35px;
     align-items: center;
   }
 }

@@ -52,6 +52,7 @@ p {
 }
 
 /* dark mode */
+
 body.dark-mode p{
     color: #ffffff;
 }
@@ -72,10 +73,12 @@ body.dark-mode .container{
     border-bottom: 5px solid #ffffff;
 }
 
+
+
+
+
 @media (max-width: 984px) {
     h1 {
-        margin-left: 13%;
-        width: 86%;
         font-size: 35px;
     }
 
@@ -85,7 +88,6 @@ body.dark-mode .container{
     }
 
     .container {
-        margin-left: 13%;
         width: 65%;
     }
 
