@@ -37,6 +37,7 @@
         color: var(--color);
     }
     .content {
+        width: 35%;
         font-size: 110%;
         color: var(--color);
         line-height: 1.6;
