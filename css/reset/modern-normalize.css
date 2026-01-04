@@ -1,11 +1,9 @@
 /*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
 *,
 ::before,
 ::after {
 	box-sizing: border-box;
 }
-
 html {
 font-family:
 	system-ui, 
@@ -30,16 +28,13 @@ font-family:
 	-webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 body {
 	margin: 0;
 }
-
 b,
 strong {
 	font-weight: bolder;
 }
-
 code,
 kbd,
 samp,
@@ -53,11 +48,9 @@ pre {
 		monospace;
 	font-size: 1em;
 }
-
 small {
 	font-size: 80%;
 }
-
 sub,
 sup {
 	font-size: 75%;
@@ -65,19 +58,15 @@ sup {
 	position: relative;
 	vertical-align: baseline;
 }
-
 sub {
 	bottom: -0.25em;
 }
-
 sup {
 	top: -0.5em;
 }
-
 table {
 	border-color: currentcolor;
 }
-
 button,
 input,
 optgroup,
@@ -88,43 +77,33 @@ textarea {
 	line-height: 1.15;
 	margin: 0;
 }
-
-
 legend {
 	padding: 0;
 }
-
 progress {
 	vertical-align: baseline;
 }
-
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
 	height: auto;
 }
-
 [type='search'] {
 	appearance: button;
 	-webkit-appearance: textfield;
 }
-
 ::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
-
 summary {
 	display: list-item;
 }
-
 /* 追加 */
 ::-webkit-search-cancel-button {
 	padding-right: 20px;
 }
-
 input:is([type="button"], [type="submit"], [type="reset"]), 
 input[type="file"]::file-selector-button, 
 button {
-  /* これを追加！ */
   -webkit-appearance: none; 
   appearance: none;
   border: none;

@@ -1,57 +1,59 @@
-.tag_fix {
+.main_container {
+    width: 100%;
+    justify-content: flex-start;
+}
+.box {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.tag {
     width: 100px;
     height: auto;
     text-align: center;
     color: #FAF9F6;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 25px; 
+}
+.fix {
     background-color: #FB966E;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 0 25px;
 }
-
-.tag_up {
-    width: 100px;
-    height: auto;
-    text-align: center;
-    color: #FAF9F6;
+.update {
     background-color: #66AFC4;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 0 25px;
 }
-
 .ver {
     font-size: 100%;
     color: var(--color);
     margin-right: 25px;
 }
-
 .future_fix {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
     border-bottom:1px solid #FB966E;
 }
-
     .date {
         font-size: 100%;
         color: var(--color);
     }
-
     .content {
         font-size: 110%;
         color: var(--color);
         line-height: 1.6;
         text-align: left;
     }
-
 .patch {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
     border-bottom:1px solid var(--company_border_color);
+}
+
+
+
+@media (max-width: 800px) {
+    .box {
+        width: 80%;
+        flex-direction: column;
+    }
+    .ver {
+        margin-right: 0;
+    }
 }

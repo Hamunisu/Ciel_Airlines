@@ -1,18 +1,14 @@
-.home_framework {
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    height: calc(100vh - 125px);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.main_framework {
+    margin: 0;
+    min-height: 100dvh;
 }
-
+.main_container {
+    max-width: 800px;
+    justify-content: center;
+}
 .logo_framework {
     margin: 0;
 }
-
 .search_frame {
     display: flex;
     min-height: 200px;
@@ -22,16 +18,14 @@
     justify-content: flex-start;
     align-items: center;
 }
-
     .input_box_frame {
         display: flex;
-        width: 45%;
+        width: 100%;
         height: auto;
         margin: 25px 0 20px 0;
         justify-content: space-between;
         align-items: center;
     }
-
     .input_box_frame input {
         width: calc(100% / 2.2);
         height: 50px;
@@ -43,10 +37,9 @@
         border-radius: 5px;
         border: 1px solid var(--border_color);
     }
-
 #result {
     display: flex;
-    width: 35%;
+    width: 70%;
     max-height: 275px;
     height: auto;
     flex-direction: column;
@@ -57,12 +50,10 @@
     border-radius: 5px;
     overflow-y: auto;
 }
-
     #result p {
         margin: 12px 0;
         font-size: 15px;
     }
-
     .result_a_frame {
         width: 100%;
         height: auto;
@@ -71,7 +62,6 @@
         border-bottom: 1px solid var(--border_color);
         transition: transform 0.2s ease, background-color 0.2s ease;
     }
-
         .result_a_frame button {
             width: 85%;
             height: auto;
@@ -80,16 +70,13 @@
             border: 1px solid #8f99ff;
             border-radius: 5px;
         }
-
         .result_a_frame a {
             font-size: 120%;
             color: rgba(255, 255, 255, 0.85);
         }
-
         .result_a_frame:last-child {
             border-bottom: none;
         }
-
 /* happy new year */
 .happy_new_year {
     width: 100%;
@@ -98,14 +85,23 @@
     font-size: 100%;
     text-align: center;
 }
-
 .pacifico {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
     .happy_new_year p {
        margin: 25px;
        font-size: 255%;
     }
+
+
+
+@media (max-width: 640px) {
+    .main_container {
+        width: 98%;
+    }
+    #result {
+        width: 85%;
+    }
+}
