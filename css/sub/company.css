@@ -54,6 +54,9 @@
         width: 80%;
         flex-direction: column;
     }
+    .content {
+        width: 85%;
+    }
     .ver {
         margin-right: 0;
     }
