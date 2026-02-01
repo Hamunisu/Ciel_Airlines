@@ -1,0 +1,16 @@
+.main_container {
+    width: 100%;
+}
+.message_frame {
+    width: 96%;
+    height: auto;
+    margin: auto 0;
+    padding: 25px;
+    border: solid 1px var(--color);
+    border-radius: 7px;
+}
+
+h1 {
+    color: var(--color);
+    font-size: 125%;
+}

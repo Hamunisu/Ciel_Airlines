@@ -1,3 +1,6 @@
+.boby {
+    background-color: #434343;
+}
 .main_container {
     width: 100%;
     justify-content: flex-start;
@@ -16,7 +19,7 @@
     color: #FAF9F6;
     border-radius: 5px;
     padding: 5px;
-    margin: 0 25px; 
+    margin: 0 25px;
 }
 .fix {
     background-color: #FB966E;
@@ -37,25 +40,26 @@
         color: var(--color);
     }
     .content {
-        width: 35%;
+        width: 50%;
         font-size: 110%;
         color: var(--color);
         line-height: 1.6;
         text-align: left;
+        padding: 25px 0;
     }
 .patch {
     border-bottom:1px solid var(--company_border_color);
 }
 
-
-
+/* resize */
 @media (max-width: 800px) {
     .box {
         width: 80%;
         flex-direction: column;
     }
     .content {
-        width: 85%;
+        width: 98%;
+        padding: 10px 0;
     }
     .ver {
         margin-right: 0;
