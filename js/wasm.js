@@ -1,5 +1,5 @@
 // @ts-nocheck
-import init, { search } from "../pkg/ciel.js";
+import init, { search } from "../wasm/ciel_core2.js";
 
 
 async function main() {
@@ -8,7 +8,7 @@ async function main() {
     const arr = document.getElementById("arr");
     const enter = document.getElementById("enter");
     const result = document.getElementById("result");
-       
+    
     const Wasm = () => {
         // @ts-ignore
         const resultText = search(dep.value, arr.value);
