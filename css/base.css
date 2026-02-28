@@ -43,7 +43,7 @@ body {
 .main_framework {
     display: flex;
     width: 100%;
-    min-height: 100dvb;
+    min-height: 100dvh;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
@@ -88,6 +88,18 @@ body {
     margin-bottom: 2%;
 }
 
+.input_box_frame input {
+    height: 50px;
+    margin: 25px 0;
+    font-size: 145%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--h_color);
+    background-color: var(--input_background_color);
+    border-radius: 5px;
+    border: 1px solid var(--border_color);
+}
+
 /* footer */
 footer {
     position: sticky;
@@ -113,7 +125,7 @@ footer {
 .footer_link {
     display: flex;
     width: 100%;
-    gap: 3%;
+    gap: 1.25%;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -134,4 +146,10 @@ footer {
     font-size: 10px;
     margin: 12px 0;
     color: #6D6D6D;
+}
+
+@media (max-width: 640px) {
+    .footer_link {
+        font-size: 80%;
+    }
 }

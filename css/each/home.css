@@ -27,20 +27,11 @@
     display: flex;
     width: 100%;
     height: auto;
-    margin: 25px 0 20px 0;
     justify-content: space-between;
     align-items: center;
 }
 .input_box_frame input {
     width: calc(100% / 2.2);
-    height: 50px;
-    font-size: 145%;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--h_color);
-    background-color: var(--input_background_color);
-    border-radius: 5px;
-    border: 1px solid var(--border_color);
 }
 
 /* result */

@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+.credits-viewport {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    overflow-y: auto;
+    mask-image: linear-gradient( to bottom, transparent, black 5%, black 95%, transparent );
+    mask-repeat: no-repeat;
+}
+@keyframes roll {
+    0% { transform: translateY(100vh) }
+    95% { transform:  translateY(-88%) }
+    100% { transform: translateY(-88%) }
+}
+.credits-scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: roll 45s linear;
+    will-change: transform;
+}
+.movie_margin {
+    width: 100%;
+    height: 100vh;
+}
+.one {
+    margin-top: 45px;
+}
+h2 {
+    margin-top: 45vh;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 350;
+}
+p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 250;
+}
+img {
+    width: 300px;
+    height: auto;
+    margin: 95vh 0;
+    pointer-events: none;
+}
+.copyright {
+    font-size: 20px;
+    font-weight: 250;
+    margin-bottom: 45px;
+}
