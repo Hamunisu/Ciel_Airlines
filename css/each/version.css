@@ -50,6 +50,9 @@
 .patch {
     border-bottom:1px solid var(--company_border_color);
 }
+.last {
+    border: none;
+}
 
 /* resize */
 @media (max-width: 800px) {

@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: roll 45s linear;
+    animation: roll 42s linear;
     will-change: transform;
 }
 .movie_margin {
