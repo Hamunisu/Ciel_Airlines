@@ -35,6 +35,10 @@
 .future_fix {
     border-bottom:1px solid #FB966E;
 }
+    .future_fix a {
+        text-decoration: none;
+        color: var(--button_border_color);
+    }
     .date {
         font-size: 100%;
         color: var(--color);

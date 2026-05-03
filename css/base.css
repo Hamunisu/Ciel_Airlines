@@ -132,18 +132,18 @@ footer {
     cursor: pointer;
 }
 .footer_link a {
-    font-size: 80%;
+    font-size: 0.75rem;
     margin: 12px 0;
     text-decoration: none;
     color: var(--color);
     text-decoration: underline;
 }
 .copy {
-    font-size: 17px;
+    font-size: 1.1rem;
     margin: 3px 0;
 }
 .attention {
-    font-size: 10px;
+    font-size: 0.65rem;
     margin: 12px 0;
     color: #6D6D6D;
 }

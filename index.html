@@ -1,61 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
-    <link rel="apple-touch-icon-precomposed" href="./assets/favicon/apple-touch-icon.png">
-    <meta name="apple-mobile-web-app-title" content="Ciel Japan Airlines" />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+        <link rel="apple-touch-icon-precomposed" href="./assets/favicon/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Ciel Japan Airlines" />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
-    <link rel="stylesheet" href="./css/reset/modern-normalize.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/each/home.css">
-    <title>Ciel Japan Airlines</title>
-</head>
-<body>
-    <div class="main_framework">
-        <div class="main_container">
+        <link rel="stylesheet" href="./css/reset/modern-normalize.css" />
+        <link rel="stylesheet" href="./css/base.css" />
+        <link rel="stylesheet" href="./css/each/home.css" />
+        <title>Ciel Japan Airlines</title>
+    </head>
+    <body>
+        <div class="main_framework">
+            <div class="main_container">
+                <div class="logo_framework">
+                    <a href="./index.html">
+                        <div class="logo_container">
+                            <picture>
+                                <source srcset="./assets/logo/cielFinalAlphaWhite_lite.PNG" media="(prefers-color-scheme: dark)" />
+                                <img src="./assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo" />
+                            </picture>
+                        </div>
+                    </a>
+                    <p class="version">v2.1.0</p>
+                </div>
 
-            <div class="logo_framework">
-                <a href="./index.html">
-                    <div class="logo_container">
-                        <picture>
-                            <source srcset="./assets/logo/cielFinalAlphaWhite_lite.PNG" media="(prefers-color-scheme: dark)">
-                            <img src="./assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo">
-                        </picture>
+                <div class="search_frame">
+                    <div class="input_box_frame">
+                        <input id="dep" type="text" placeholder="Deperture" maxlength="4" autofocus />
+                        <input id="arr" type="text" placeholder="Arrival" maxlength="4" />
                     </div>
-                </a>
-                <p class="version">v2.0.9</p>
+                    <div id="enter"></div>
+                    <div id="result">
+                        <p>空港名をICAOまたはIATAで入力し、Enterを押してください</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="search_frame">
-                <div class="input_box_frame">
-                    <input id="dep" type="text" placeholder="Deperture" maxlength="4" autofocus>
-                    <input id="arr" type="text" placeholder="Arrival" maxlength="4">
+            <footer>
+                <div class="footer_framework">
+                    <div class="footer_link">
+                        <!-- <a href="./html/ticket.html">チケット</a> -->
+                        <a href="./html/version.html">バージョン履歴</a>
+                        <a href="./html/licenses.html">ライセンスについて</a>
+                        <a href="./html/credits.html">クレジット</a>
+                    </div>
+                    <p class="copy">&copy; 2026 Hamunisu / Ciel Japan Airlines</p>
+                    <p class="attention">
+                        本サイトに掲載されている情報は、Microsoft Flight SimulatorおよびX-Planeでの利用を目的とした架空のデータであり、
+                        実在の企業・団体とは一切関係ありません。実際の運航には絶対に使用しないでください。
+                    </p>
                 </div>
-                <div id="enter"></div>
-                <div id="result">
-                    <p>空港名をICAOまたはIATAで入力し、Enterを押してください</p>
-                </div>
-            </div>
+            </footer>
         </div>
-
-        <footer>
-            <div class="footer_framework">
-                <div class="footer_link">
-                    <!-- <a href="./html/ticket.html">チケット</a> -->
-                    <a href="./html/version.html">バージョン履歴</a>
-                    <a href="./html/licenses.html">ライセンスについて</a>
-                    <a href="./html/credits.html">クレジット</a>
-                </div>
-                <p class="copy">&copy; 2026 Hamunisu / Ciel Japan Airlines</p>
-                <p class="attention">本サイトに掲載されている情報は、Microsoft Flight SimulatorおよびX-Planeでの利用を目的とした架空のデータであり、実在の企業・団体とは一切関係ありません。実際の運航には絶対に使用しないでください。</p>
-            </div>
-        </footer>
-    </div>
-<script type="module" src="./js/wasm.js"></script>
-</body>
+        <script type="module" src="./js/wasm.js"></script>
+    </body>
 </html>

@@ -103,3 +103,10 @@ button {
   appearance: none;
   border: none;
 }
+
+/* for apple */
+@supports (font: -apple-system-body) {
+	html {
+		font: -apple-system-body;
+	}
+}
