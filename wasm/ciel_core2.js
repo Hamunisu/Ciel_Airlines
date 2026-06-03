@@ -1,16 +1,16 @@
 /* @ts-self-types="./ciel_core2.d.ts" */
 
 /**
- * @param {string} deperture
+ * @param {string} departure
  * @param {string} arrival
  * @returns {string}
  */
-export function search(deperture, arrival) {
+export function search(departure, arrival) {
     let deferred3_0;
     let deferred3_1;
     try {
         const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
-        const ptr0 = passStringToWasm0(deperture, wasm.__wbindgen_export, wasm.__wbindgen_export2);
+        const ptr0 = passStringToWasm0(departure, wasm.__wbindgen_export, wasm.__wbindgen_export2);
         const len0 = WASM_VECTOR_LEN;
         const ptr1 = passStringToWasm0(arrival, wasm.__wbindgen_export, wasm.__wbindgen_export2);
         const len1 = WASM_VECTOR_LEN;

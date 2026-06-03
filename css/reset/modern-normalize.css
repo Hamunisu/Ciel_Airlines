@@ -27,42 +27,6 @@ font-family:
 body {
 	margin: 0;
 }
-b,
-strong {
-	font-weight: bolder;
-}
-code,
-kbd,
-samp,
-pre {
-	font-family:
-		ui-monospace,
-		SFMono-Regular,
-		Consolas,
-		'Liberation Mono',
-		Menlo,
-		monospace;
-	font-size: 1em;
-}
-small {
-	font-size: 80%;
-}
-sub,
-sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
-}
-sub {
-	bottom: -0.25em;
-}
-sup {
-	top: -0.5em;
-}
-table {
-	border-color: currentcolor;
-}
 button,
 input,
 optgroup,
@@ -73,9 +37,6 @@ textarea {
 	line-height: 1.15;
 	margin: 0;
 }
-legend {
-	padding: 0;
-}
 progress {
 	vertical-align: baseline;
 }
@@ -83,20 +44,7 @@ progress {
 ::-webkit-outer-spin-button {
 	height: auto;
 }
-[type='search'] {
-	appearance: button;
-	-webkit-appearance: textfield;
-}
-::-webkit-search-decoration {
-	-webkit-appearance: none;
-}
-summary {
-	display: list-item;
-}
-::-webkit-search-cancel-button {
-	padding-right: 20px;
-}
-input:is([type="button"], [type="submit"], [type="reset"]), 
+input:is([type="button"], [type="submit"], [type="reset"]),
 input[type="file"]::file-selector-button, 
 button {
   -webkit-appearance: none; 
