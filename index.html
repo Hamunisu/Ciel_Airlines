@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="バーチャルエアライン Ciel Japan Airlines 専用便名・路線検索システム | MSFS / X-Plane対応 検索した路線データから１クリックでSimBriefへ移動しスムーズにVAフライトプランの作成が可能なサイトです。" />
+        <meta http-equiv="Content-Security-Policy" content= "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; img-src 'self' data:;" >
         <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
         <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
@@ -10,9 +12,23 @@
         <meta name="apple-mobile-web-app-title" content="Ciel Japan Airlines" />
         <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
-        <link rel="stylesheet" href="./css/reset/modern-normalize.css" />
+        <!-- SNS -->
+        <meta property="og:title" content="Ciel Japan Airlines" />
+        <meta property="og:description" content="バーチャルエアライン Ciel Japan Airlines 専用便名・路線検索システム" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://hamunisu.github.io/Ciel_Airlines/assets/logo/cielFinalAlpha_lite.PNG" />
+
+        <!-- Twitter(X) -->
+        <meta name="twitter:card" content="summary_large_image" />
+
         <link rel="stylesheet" href="./css/base.css" />
         <link rel="stylesheet" href="./css/each/home.css" />
+
+        <!-- preload -->
+        <link rel="preload" href="./wasm/ciel_core2_bg.wasm" as="fetch" type="application/wasm" crossorigin />
+        <link rel="modulepreload" href="./wasm/ciel_core2.js" />
+        <link rel="modulepreload" href="./js/wasm.js" />
+
         <title>Ciel Japan Airlines</title>
     </head>
     <body>
@@ -23,23 +39,23 @@
                         <div class="logo_container">
                             <picture>
                                 <source srcset="./assets/logo/cielFinalAlphaWhite_lite.PNG" media="(prefers-color-scheme: dark)" />
-                                <img src="./assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo" />
+                                <img src="./../assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo"　width="200" height="50" fetchpriority="high"/>
                             </picture>
                         </div>
                     </a>
-                    <p class="version">v2.1.1</p>
+                    <p class="version">v2.1.2</p>
                 </div>
 
-                <div class="search_frame">
+                <main class="search_frame">
                     <div class="input_box_frame">
-                        <input id="dep" type="text" placeholder="Departure" maxlength="4" autofocus />
-                        <input id="arr" type="text" placeholder="Arrival" maxlength="4" />
+                        <input id="dep" type="text" placeholder="Departure" aria-label="出発空港を入力" maxlength="4" autofocus />
+                        <input id="arr" type="text" placeholder="Arrival" aria-label="到着空港を入力" maxlength="4" />
                     </div>
                     <div id="enter"></div>
                     <div id="result">
                         <p>空港名をICAOまたはIATAで入力し、Enterを押してください</p>
                     </div>
-                </div>
+                </main>
             </div>
 
             <footer>

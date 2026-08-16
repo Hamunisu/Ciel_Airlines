@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, follow" />
         <link rel="icon" type="image/png" href="./../assets/favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="./../assets/favicon/favicon.svg" />
         <link rel="shortcut icon" href="./../assets/favicon/favicon.ico" />
@@ -10,28 +11,28 @@
         <meta name="apple-mobile-web-app-title" content="Ciel Japan Airlines" />
         <link rel="manifest" href="./../assets/favicon/site.webmanifest" />
 
-        <link rel="stylesheet" href="./../css/reset/modern-normalize.css" />
         <link rel="stylesheet" href="./../css/base.css" />
-        <link rel="stylesheet" href="./../css/each/attention.css" />
+        <link rel="stylesheet" href="./../css/each/atten_ver.css" />
+
         <title>Attention | Ciel Japan Airlines</title>
     </head>
     <body>
         <div class="main_framework">
-            <div class="main_container">
+            <div class="main_container atteintion_container">
                 <div class="logo_framework">
                     <a href="./../index.html">
                         <div class="logo_container">
                             <picture>
                                 <source srcset="./../assets/logo/cielFinalAlphaWhite_lite.PNG" media="(prefers-color-scheme: dark)" />
-                                <img src="./../assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo" />
+                                <img src="./../assets/logo/cielFinalAlpha_lite.PNG" alt="Ciel Logo"　width="200　" height="50" fetchpriority="high"/>
                             </picture>
                         </div>
                     </a>
                     <p class="version">v2.1.1</p>
                 </div>
 
-                <div class="message_frame">
-                    <h1>【重要：チケットについて】</h1>
+                <div class="attention_message_frame">
+                    <h1 class="attention_h1">【重要：チケットについて】</h1>
                     <p>
                         このチケットは、Microsoft Flight SimulatorおよびX-Plane内でのフライト体験を演出するための架空のものです。
                         <br /><br />※ 現実の航空機への搭乗や、実際の空港施設では一切使用できません。

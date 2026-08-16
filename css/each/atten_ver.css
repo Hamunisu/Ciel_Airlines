@@ -1,7 +1,21 @@
-.boby {
-    background-color: #434343;
+.atteintion_container {
+    width: 100%;
 }
-.main_container {
+.attention_message_frame {
+    width: 96%;
+    height: auto;
+    margin: auto 0;
+    padding: 25px;
+    border: solid 1px var(--color);
+    border-radius: 7px;
+}
+
+.attention_h1 {
+    color: var(--color);
+    font-size: 125%;
+}
+
+.version_main_container {
     width: 100%;
     justify-content: flex-start;
 }
