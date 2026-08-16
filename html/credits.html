@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Security-Policy" content= "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; img-src 'self' data:;" />
         <meta name="robots" content="noindex, follow" />
         <link rel="icon" type="image/png" href="./../assets/favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="./../assets/favicon/favicon.svg" />
@@ -10,6 +11,16 @@
         <link rel="apple-touch-icon-precomposed" href="./../assets/favicon/apple-touch-icon.png">
         <meta name="apple-mobile-web-app-title" content="Ciel Japan Airlines" />
         <link rel="manifest" href="./../assets/favicon/site.webmanifest" />
+
+        <!-- SNS -->
+        <meta property="og:title" content="Ciel Japan Airlines" />
+        <meta property="og:description" content="クレジット | バーチャルエアライン Ciel Japan Airlines 専用便名・路線検索システム" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://hamunisu.github.io/Ciel_Airlines/assets/logo/cielFinalAlpha_lite.PNG" />
+
+        <!-- Twitter(X) -->
+        <meta name="twitter:card" content="summary_large_image" />
+
 
         <link rel="stylesheet" href="./../css/base.css">
         <link rel="stylesheet" href="./../css/each/credits.css">
@@ -31,7 +42,7 @@
                 <p>Ciel_Core (v2.0.7)</p>
                 <h2>データサイズ</h2>
                 <p>246 KB (Network: 約52 KB)</p>
-                <img  src="./../assets/logo/cielFinalAlpha_lite.PNG" alt="ciel japan airline">
+                <a href="./../index.html"><img  src="./../assets/logo/cielFinalAlpha_lite.PNG" alt="ciel japan airline"></a>
                 <p class="copyright">&copy; 2026 Hamunisu / Ciel Japan Airlines</p>
             </div>
         </div>

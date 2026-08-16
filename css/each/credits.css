@@ -41,11 +41,12 @@ p {
     font-size: 24px;
     font-weight: 250;
 }
+a {
+    margin: 95vh 0;
+}
 img {
     width: 300px;
     height: auto;
-    margin: 95vh 0;
-    pointer-events: none;
 }
 .copyright {
     font-size: 20px;
