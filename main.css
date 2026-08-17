@@ -418,8 +418,8 @@ footer {
 }
 @keyframes roll {
     0% { transform: translateY(100vh) }
-    95% { transform:  translateY(-88%) }
-    100% { transform: translateY(-88%) }
+    95% { transform:  translateY(-89%) }
+    100% { transform: translateY(-89%) }
 }
 .credits_scroll {
     display: flex;
@@ -454,8 +454,7 @@ footer {
     width: 300px;
     height: auto;
 }
-.copyright {
+.credits_scroll .copyright {
     font-size: 20px;
-    font-weight: 250;
     margin-bottom: 45px;
 }
