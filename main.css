@@ -433,14 +433,14 @@ footer {
     width: 100%;
     height: 100vh;
 }
-.one {
-    margin-top: 45px;
-}
 .credits_scroll h2 {
-    margin-top: 45vh;
+    margin-top: 50vh;
     margin-bottom: 15px;
     font-size: 15px;
     font-weight: 350;
+}
+.one {
+    margin-top: 0;
 }
 .credits_scroll p {
     margin: 0;
