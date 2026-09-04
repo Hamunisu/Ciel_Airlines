@@ -20,6 +20,9 @@ WebAssembly化したRustのコアロジックをJavaScript（フレームワー�
 
 [Ciel_Core](https://github.com/Hamunisu/Ciel_Core)
 
+## Third Party Licenses
+[ライセンスについて](https://hamunisu.github.io/Ciel_Airlines/html/licenses.html)
+
 
 ## コピーライト
 © 2026 Hamunisu / Ciel Japan Airlines
